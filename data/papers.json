@@ -1,0 +1,105 @@
+{
+ "papers": {
+  "arxiv:2611.18490": {
+   "key": "arxiv:2611.18490",
+   "source": "arXiv",
+   "title": "Fine-tuned atomistic foundation model for accurate sodium-carbon chemistry in Na-ion batteries",
+   "abstract": "Atomistic foundation models have emerged as a promising route to DFT-level accuracy for materials simulation with complex chemical environments. However, their reliability across competing bonding regimes and, more importantly, how complex bonding affects predictions of material properties remain unclear. Among materials with competing bonding regimes, sodium storage in hard carbon poses a substantial challenge. Hard carbon features diverse local structural motifs, including defective and curved graphitic regions, amorphous regions, and closed/open pores. Motivated by its importance for Na-ion batteries, we systematically evaluate existing pretrained foundation models based on the MACE architecture across different local Na/C motifs. We find that the pretrained models fail to accurately capture Na-Na and Na-C interactions for metallic Na clusters on graphene. To recover a DFT-level energetic description, we employ targeted fine-tuning, showing that it can describe the energetic stability of local motifs and achieve sufficient transferability to unseen Na/C environments. With the developed fine-tuned model, we establish a correlation between closed-pore radius in hard carbon and plateau voltage, showing that the small pores contribute at larger voltages than large ones, suggesting thus how the developed fine-tuned foundation model can link atomistic information with materials design for complex bonding environments.",
+   "date": "2026-11-13",
+   "url": "https://arxiv.org/abs/2611.18490",
+   "venue": "arXiv preprint",
+   "authors": [
+    "Andres Felipe Usuga",
+    "Ihor Radchenko",
+    "Yuxin Tang"
+   ],
+   "query": "abs:sodium AND abs:battery",
+   "first_seen": "2026-11-16"
+  },
+  "doi:10.1016/j.jpowsour.2026.241952": {
+   "key": "doi:10.1016/j.jpowsour.2026.241952",
+   "source": "Crossref",
+   "title": "Cell teardown and post mortem degradation analysis of commercial 18650 sodium-ion batteries",
+   "abstract": "",
+   "date": "2026-11-16",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2026.241952",
+   "venue": "Journal of Power Sources",
+   "authors": [
+    "Nick Fehlings",
+    "Lukas Ihlbrock",
+    "Philipp Voß"
+   ],
+   "query": "NASICON sodium solid electrolyte",
+   "first_seen": "2026-11-16"
+  },
+  "doi:10.1016/j.jpowsour.2026.241959": {
+   "key": "doi:10.1016/j.jpowsour.2026.241959",
+   "source": "Crossref",
+   "title": "Nitrogen doping of porous carbon material through defluorination in ammonia for electrochemical applications in sodium-ion batteries and capacitors",
+   "abstract": "",
+   "date": "2026-11-16",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2026.241959",
+   "venue": "Journal of Power Sources",
+   "authors": [
+    "Y.V. Fedoseeva",
+    "A.D. Panfilova",
+    "A.A. Zaguzina"
+   ],
+   "query": "Prussian blue analogue sodium cathode",
+   "first_seen": "2026-11-16"
+  },
+  "doi:10.1002/ange.9097834": {
+   "key": "doi:10.1002/ange.9097834",
+   "source": "Crossref",
+   "title": "Coking–Crosslinking Competition Shapes Alveolar Hard Carbon Formation From Heterogeneous Precursors for Wide‐Temperature Sodium Storage",
+   "abstract": "Competing with lithium‐ion technology on cost and resource abundance requires sodium‐ion batteries to use hard‐carbon anodes produced from abundant, inexpensive feedstocks without sacrificing structural control. Yet the natural and residual feedstocks that meet these requirements are typically chemically heterogeneous. Competing transformations among their constituent fractions before high‐temperature treatment make the carbonization pathway and carbon architecture difficult to predict and direct. Here, controlled fraction removal and reintroduction reveal a new mechanism whereby coking‐crosslinking competition selects the carbonization pathway. Surface coking blocks oxygen access and suppresses bulk crosslinking, whereas low‐temperature pre‐purification removes coking‐prone fractions, preserving an oxygen‐accessible skeleton that forms alveolar hard carbon (AHC). Operando x‐ray diffraction (XRD)/Raman and synchrotron x‐ray absorption near‐edge structure (XANES) establish that the low‐potential plateau arises from reversible formation of highly reduced sodium species within confined pores. AHC‐120@15‐1400 delivers 388.3 mAh g −1 with 91.3% initial Coulombic efficiency (ICE), retains 94.3% capacity after 10 500 cycles at 4 A g −1 , and operates from −25°C to 45°C. A 1.2 Ah pouch cell retains 82.5% capacity after 1,000 cycles, while the route lowers cradle‐to‐gate material‐resource impact by 35.6% relative to commercial hard‐carbon production. Controlling coking‐crosslinking competition establishes a pathway‐selective design principle for converting heterogeneous carbon resources into durable, wide‐temperature sodium‐storage carbons.",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.1002/ange.9097834",
+   "venue": "Angewandte Chemie",
+   "authors": [
+    "Yuhan Liu",
+    "Hao Yang",
+    "Qianxun Li"
+   ],
+   "query": "Prussian blue analogue sodium cathode",
+   "first_seen": "2026-11-16"
+  },
+  "doi:10.1039/d6ra09929g": {
+   "key": "doi:10.1039/d6ra09929g",
+   "source": "Crossref",
+   "title": "Advancement in graphene-based anode materials for high-performance sodium-ion batteries",
+   "abstract": "This work highlights current developments in pure, porous, and heteroatom-doped graphene as anode materials for SIBs. Additionally, it addresses graphene nanocomposite anodes, particularly conversion, intercalation, and alloy-based materials.",
+   "date": "2026-11-16",
+   "issue_date": "",
+   "url": "https://doi.org/10.1039/d6ra09929g",
+   "venue": "RSC Advances",
+   "authors": [
+    "Ababay Ketema Worku",
+    "Bhekie B. Mamba",
+    "Nithyadharseni Palaniyandy"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "first_seen": "2026-11-16"
+  },
+  "doi:10.53941/sen.2026.100015": {
+   "key": "doi:10.53941/sen.2026.100015",
+   "source": "Crossref",
+   "title": "Highly Stable and Practical Sodium-Ion Batteries: Key Materials, Electrode Engineering, Manufacturing, and Prospects",
+   "abstract": "Sodium-ion batteries (SIBs) are promising for large-scale energy storage owing to abundant sodium resources, low cost, and good manufacturing compatibility. However, their practical application remains limited by the structural stability of key materials, interfacial side reactions, cycle life, and safety. This review focuses on highly stable and practical SIBs and systematically summarizes the main failure mechanisms and stabilization strategies of cathode materials, anode materials, and electrolyte/electrode interfaces. Particular attention is paid to phase-transition suppression in layered oxides, framework strengthening of polyanionic compounds, defect regulation in Prussian blue/white materials, closed-pore structure optimization of hard carbon, solid electrolyte interphase (SEI)/cathode electrolyte interphase (CEI) formation, and interfacial stability of solid-state electrolytes. In addition, engineering strategies such as thick-electrode design, dry electrode manufacturing, thermal management, adaptive binders, and digital twin technologies are discussed from the perspective of material–electrode–device integration. Distinct from reviews centered on individual material classes, this work connects key-material failure mechanisms with electrode architecture, manufacturing, safety management, and industrialization, providing a full-chain materials–electrode–device–manufacturing perspective. Future efforts should focus on interfacial controllability, manufacturing consistency, and recycling sustainability to accelerate the large-scale application of SIBs.",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.53941/sen.2026.100015",
+   "venue": "Sustainable Engineering Novit",
+   "authors": [
+    "Lu Yue",
+    "Yujie Zhang",
+    "Jiajun Wan"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "first_seen": "2026-11-16"
+  }
+ }
+}

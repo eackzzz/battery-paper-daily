@@ -1,0 +1,24 @@
+{
+  "mailto": "your-email@example.com",
+  "days_back": 7,
+  "max_per_query_arxiv": 25,
+  "max_per_query_crossref": 20,
+  "max_listed_in_readme": 40,
+  "arxiv_queries": [
+    "abs:sodium AND abs:battery",
+    "abs:\"Na-ion\" AND abs:battery",
+    "abs:sodium AND abs:cathode",
+    "abs:NASICON",
+    "abs:sodium AND abs:\"Prussian blue\"",
+    "abs:sodium AND abs:\"solid electrolyte\"",
+    "abs:\"covalent organic framework\" AND abs:sodium"
+  ],
+  "crossref_queries": [
+    "sodium-ion battery cathode",
+    "sodium ion battery anode hard carbon",
+    "NASICON sodium solid electrolyte",
+    "Prussian blue analogue sodium cathode",
+    "NaFePO4 cathode sodium",
+    "covalent organic framework sodium anode"
+  ]
+}
