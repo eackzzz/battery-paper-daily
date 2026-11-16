@@ -1,0 +1,36 @@
+name: 钠电文献日报
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 抓取文献
+        run: python fetch_papers.py
+      - name: 提交结果
+        run: |
+          git config user.name "sodium-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "今天没有新增，跳过提交"
+          else
+            git commit -m "chore: 更新日报 $(date -u +'%Y-%m-%d')"
+            git push
+          fi
