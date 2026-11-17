@@ -100,6 +100,141 @@
    ],
    "query": "NaFePO4 cathode sodium",
    "first_seen": "2026-11-16"
+  },
+  "doi:10.1021/acsami.6c19377": {
+   "key": "doi:10.1021/acsami.6c19377",
+   "source": "Crossref",
+   "title": "Molecular Engineering of Customizable Resin-Derived Hard Carbon Framework for Efficient Sodium Storage",
+   "abstract": "Owing to their high carbon yield and molecular controllability, resins have emerged as promising precursors for hard carbon (HC) anodes in sodium-ion batteries (SIBs). However, achieving synergistic optimization of carbon microcrystals and sub-nanopores during resin pyrolysis to enhance sodium storage capacity remains a significant challenge. Herein, a spatial-chemistry-directed crosslinking (SCDC) strategy, based on the Mannich reaction of selected target molecules (TMs) within a resin network, is proposed. Owing to the steric hindrance of gem-dimethyl groups and the carboxyl-group-mediated interactions, the formation of nanoscale closed pores was facilitated while the continuity of sp2-hybridized carbon microcrystals was ensured and a large interlayer spacing was maintained. Through this approach, an HC architecture with elongated pseudo-graphitic domains and abundant closed pores is constructed in a synergistic manner, affording excellent electronic and ionic transport kinetics. The engineered HC exhibits an enhanced reversible capacity of 427.5 mAh g–1 and an outstanding initial coulombic efficiency (ICE) of 90.18%, along with a high reversible initial capacity of 346.7 mAh g–1 at 2 A g–1 and a capacity retention of up to 85.3% after 500 cycles. This study provides new insights into the microstructural design for high-capacity, high-rate sodium storage.",
+   "date": "2026-11-17",
+   "issue_date": "2026-11-17",
+   "url": "https://doi.org/10.1021/acsami.6c19377",
+   "venue": "ACS Applied Materials &amp; Interfaces",
+   "authors": [
+    "Xiaohui Huang",
+    "Yiduo Liu",
+    "Jingjing Hao"
+   ],
+   "query": "sodium-ion battery cathode",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.1149/1945-7111/aec2ae": {
+   "key": "doi:10.1149/1945-7111/aec2ae",
+   "source": "Crossref",
+   "title": "Effect of Cycling Protocol on the Stress and Mechanical Degradation of Hard Carbon Electrodes",
+   "abstract": "Maximum stress experienced by an electrode during cycling is shown to cause mechanical degradation and capacity fade, but the effect of potential window and stress range (Δσ) on cycling behavior was not investigated. Here, stresses generated in hard carbon (HC)-based porous composite electrodes were measured in situ while cycling under three different potential windows: (i) full window (2-0.0005 V vs Na/Na+), (ii) sloping (2-0.1 V vs Na/Na+), and plateau (0.1-0.0005 V vs Na/Na+) regions and three different C-rates. The stress range (Δσ), capacity, and mechanical hysteresis during sloping region were nearly rate-independent, while they showed significant rate dependence in the plateau region, suggesting two different ion-storage mechanisms. Both the stress range and mechanical hysteresis (indicator of irreversible deformation) increased at lower current densities during the plateau region, indicating higher irreversible mechanical work and degradation. During extended cycling, capacity continued to decrease even after the maximum stress saturated, indicating that Δσ and hysteresis are important to explain electrode degradation. Based on these observations, an optimized cycling protocol was used which reduced stress range and mechanical hysteresis while increasing specific capacity at faster rate, demonstrating the importance of coupled electro-chemomechanical responses for optimizing cycling protocols to improve capacity utilization and mechanical durability.",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.1149/1945-7111/aec2ae",
+   "venue": "Journal of The Electrochemical Society",
+   "authors": [
+    "Amit Chanda",
+    "Abdulrahman Alfadhli",
+    "Vijay Anand Sethuraman"
+   ],
+   "query": "sodium ion battery anode hard carbon",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.1016/j.jpowsour.2026.241935": {
+   "key": "doi:10.1016/j.jpowsour.2026.241935",
+   "source": "Crossref",
+   "title": "NASICON type LAGP solid electrolytes: A comprehensive review",
+   "abstract": "",
+   "date": "2026-11-16",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2026.241935",
+   "venue": "Journal of Power Sources",
+   "authors": [
+    "Jian Zhang",
+    "Shuangtao Pan"
+   ],
+   "query": "NASICON sodium solid electrolyte",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.3390/batteries12110491": {
+   "key": "doi:10.3390/batteries12110491",
+   "source": "Crossref",
+   "title": "Waste-PET-Derived Nitrogen-Doped Hard Carbon for Sodium-Ion Batteries: A Comparative Study",
+   "abstract": "Sodium-ion batteries (SIBs) are regarded as a promising alternative to lithium-ion batteries (LIBs). However, their advancement is constrained by the sluggish kinetics and modest capacity of conventional hard carbon (HC) anodes. Here, we report an upcycling strategy that transforms post-consumer polyethylene terephthalate (PET) bottles into nitrogen-doped hard carbon (NHC) through KOH-assisted pyrolysis followed by a separate urea-assisted nitrogen-doping treatment. The resulting NHC exhibits enlarged interlayer spacing and incorporates nitrogen into the carbon structure. Benefiting from this tailored architecture, the optimized NHC-800 delivers a high reversible capacity of 310.7 mAh g−1 at 20 mA g−1 over 874 cycles. Furthermore, a comparative mechanistic investigation of HC, NHC, reduced graphene oxide (rGO), and carboxyl-functionalized multi-walled carbon nanotubes (MWCNTs-COOH) reveals architecture-dependent sodium-storage pathways, ranging from intersheet diffusion in rGO and kinetically asymmetric storage in oxidized nanotubes to adsorption–intercalation–nanopore filling in hard carbons. This study not only elucidates the principles of rational defect and spacing engineering for developing high-performance SIB anodes but also demonstrates a strategy to upcycle plastic waste, thereby reducing the landfill burden and mitigating dependence on critical lithium resources.",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.3390/batteries12110491",
+   "venue": "Batteries",
+   "authors": [
+    "Qiran Lu",
+    "Weinan Zhao",
+    "Saeed Habibpour"
+   ],
+   "query": "Prussian blue analogue sodium cathode",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.3390/ma19224842": {
+   "key": "doi:10.3390/ma19224842",
+   "source": "Crossref",
+   "title": "Biomass-Derived Hard Carbon Anodes for Sodium-Ion Batteries: From Precursor Chemistry to Multiscale Structural Engineering",
+   "abstract": "Biomass-derived hard carbon (BHC) is a promising anode material for sodium-ion batteries owing to its renewable feedstocks, low cost, and favorable sodium-storage performance. However, variations in biomass composition and pyrolysis behavior pose challenges to precise structural regulation, thereby constraining further improvements in initial Coulombic efficiency (ICE), plateau capacity, and rate capability. This review analyzes how the decomposition and reconstruction of cellulose, hemicellulose, and lignin influence microcrystal, defect, and pore formation. In particular, this review discusses multiscale regulation strategies, including pretreatment to optimize precursor composition and interactions among constituents; pre-carbonization, pre-oxidation, and Joule heating to stabilize carbon frameworks and regulate carbon-layer growth and pore evolution; and surface engineering to reduce irreversible sodium consumption and improve interfacial stability. Finally, future perspectives, including establishing quantitative relationships between precursor characteristics and carbon structures, developing energy-efficient processes for coordinated structural regulation, and ensuring structural consistency across feedstock batches, are proposed. We believe this review can help guide the design of BHC for practical applications.",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-15",
+   "url": "https://doi.org/10.3390/ma19224842",
+   "venue": "Materials",
+   "authors": [
+    "Junxuan Zhang",
+    "Mengyao Li",
+    "Tong Li"
+   ],
+   "query": "Prussian blue analogue sodium cathode",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.1021/acsami.6c17291": {
+   "key": "doi:10.1021/acsami.6c17291",
+   "source": "Crossref",
+   "title": "Understanding the Role of Solid Polymer Electrolyte Network Structure and Modulus in In Situ Anode Formation of “Anode-Free” Sodium Metal Batteries",
+   "abstract": "“Anode-free” solid-state battery concepts based on sodium metal have attracted greater research interest recently due to their potential economic advantages, namely lower material costs and simplified, less expensive processing. However, these cell concepts suffer from poor cycling reversibility and cycle life, and little is understood about the fundamentals that govern sodium metal growth during in situ anode formation in solid-state batteries (SSBs). In this work, we use two model cross-linked network solid polymer electrolyte systems with varying cross-link density and modulus to investigate how such properties influence sodium metal growth and cycling stability. Using scanning electron microscopy (SEM) and electrochemical impedance spectroscopy, we show that solid polymer electrolyte (SPE) modulus strongly influences the early-stage morphology and charge-transfer kinetics of in situ formed sodium metal anodes. The higher-modulus SPE promotes faster in-plane growth of sodium metal, particularly during the early stages of in situ anode formation. Consequently, the higher-modulus SPE displays 3.0× and 1.9× lower interfacial resistances than the lower-modulus SPE at plating capacities of 0.05 and 0.1 mAh cm–2, respectively. Despite lower interfacial resistance early in anode formation, the higher-modulus SPE displays shorter cycle life in Na|SPE|Cu “anode-free” half cells at 2.3 ± 1.1 mAh cm–2 compared to 6.6 ± 2.9 for the lower-modulus SPE. This work demonstrates that tuning SPE network structure through cross-link density can increase modulus and accelerate electroactive Na-SPE interface formation, but improved interfacial kinetics do not necessarily translate to greater long-term cycling stability. In situ indentation experiments in SEM showed that increasing cross-link density also yields a more brittle network that is more susceptible to crack propagation, which likely facilitates dendrite penetration and reduces cycle life.",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.1021/acsami.6c17291",
+   "venue": "ACS Applied Materials &amp; Interfaces",
+   "authors": [
+    "William R. Fullerton",
+    "Mark C. Staub",
+    "Yuean Wu"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.1038/s41467-026-79386-9": {
+   "key": "doi:10.1038/s41467-026-79386-9",
+   "source": "Crossref",
+   "title": "Highly conductive halide Na-ion conductor enabled by cost-effective aliovalent carbonate polyanion substitution for all-solid-state sodium batteries",
+   "abstract": "",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.1038/s41467-026-79386-9",
+   "venue": "Nature Communications",
+   "authors": [
+    "Xiaolin Guo",
+    "Man Chen",
+    "James Burrow"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.1021/acsaem.6c02883": {
+   "key": "doi:10.1021/acsaem.6c02883",
+   "source": "Crossref",
+   "title": "Mechanistic Insights into Sodium Storage through Transport Kinetics, Bulk, and Interfacial Property Analyses of Hard and Soft Carbon Anodes",
+   "abstract": "Understanding the sodium storage mechanism in disordered carbons remains critical for the development of high-capacity anodes for sodium–ion batteries. Here, we systematically investigate sodium storage in hard carbon, soft carbon, and a hard–soft carbon composite by correlating carbon structure, ion transport kinetics, and electrochemical interfacial chemistry with electrochemical performance. The three carbon architectures exhibit distinct pore structures, surface chemistry, and graphitic ordering, enabling the contribution of surface/interfacial and pore-confined sodium storage to be differentiated. Kinetic analysis demonstrates that the sodium ion transport is strongly dependent on the accessible pore network and carbon microstructure. The hard–soft carbon showed the highest galvanostatic intermittent titration technique (GITT)-derived diffusion coefficients above 0.6 V but the steepest decrease below 0.1 V. Despite differences in the surface chemistries of the carbon materials, the interfacial chemistry remained similar, as did the initial coulombic efficiency and cycling stability. The increase in discharge capacity previously reported for the hard–soft carbon is therefore attributed mainly to the availability and connectivity of suitable nanopores. The findings provide mechanistic insights into the interplay between ion transport, carbon pore structure and accessibility, and interfacial chemistry, and explain why cocarbonization of a hard and soft carbon is a facile route for increasing capacity via pore structure modification, suggesting that restricted access to retained ultramicropores increases the low-voltage plateau capacity, while the oxygen-rich surface of the composite supports storage in the sloping region.",
+   "date": "2026-11-16",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.1021/acsaem.6c02883",
+   "venue": "ACS Applied Energy Materials",
+   "authors": [
+    "Israr Ahmed",
+    "Hiroyuki Ueda",
+    "Jon Serrano Sevillano"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "first_seen": "2026-11-17"
   }
  }
 }
