@@ -235,6 +235,39 @@
    ],
    "query": "NaFePO4 cathode sodium",
    "first_seen": "2026-11-17"
+  },
+  "arxiv:2611.19116": {
+   "key": "arxiv:2611.19116",
+   "source": "arXiv",
+   "title": "A Hybrid State Space-Attention Architecture for Forecasting the Trajectories of Battery Degradation",
+   "abstract": "Early-life battery degradation trajectory forecasting aims to predict a battery cell's full state-of-health (SOH) trajectory from its initial charge-discharge cycles, potentially reducing cell qualification and evaluation time from months to days. Despite recent advances, accurate forecasting remains challenging for emerging battery chemistries, data-scarce domains, and cells exhibiting degradation behaviors beyond those observed during training. Existing state-of-the-art approaches increasingly rely on model scaling, large language model-derived aging-condition embeddings, and extensive fold-specific hyperparameter tuning, raising concerns about computational efficiency, reproducibility, and generalization. This work introduces DecayFormer, a compact hybrid state-space and attention architecture designed for early-life degradation trajectory forecasting. DecayFormer combines cycle-level selective recurrence, using a single scalar state per channel, with an attention mechanism queried by the recurrent state. It further incorporates state-of-charge (SOC) interval statistics and a master curve head that jointly estimates a scalar lifetime and a monotonically non-increasing SOH profile parameterized by normalized lifetime. We evaluate DecayFormer on the BatteryLife benchmark using all 22 aging-condition-exclusive folds, with a single run per fold and one fixed configuration across all folds, without fold-specific tuning. DecayFormer achieves mean test MAPE values of 2.25% on Li-ion, 2.76% on CALB, 0.95% on Na-ion, and 7.19% on Zn-ion. These results demonstrate the potential of compact sequence models to deliver accurate early-life degradation forecasts across diverse battery chemistries and aging conditions, without relying on extensive model scaling or per-fold optimization.",
+   "date": "2026-11-14",
+   "url": "https://arxiv.org/abs/2611.19116",
+   "venue": "arXiv preprint",
+   "authors": [
+    "Shrey Patel",
+    "Bhargav Srinivas Rao",
+    "Samet Ayhan"
+   ],
+   "query": "abs:\"Na-ion\" AND abs:battery",
+   "first_seen": "2026-11-17"
+  },
+  "doi:10.1021/acsenergylett.6c02924": {
+   "key": "doi:10.1021/acsenergylett.6c02924",
+   "source": "Crossref",
+   "title": "From Nonstep to Step: Voltage‑Response‑Driven Interfacial Evolution and Closed‑Pore Sodium Filling in Hard Carbon Anode",
+   "abstract": "Hard carbon (HC) is regarded as the most commercially viable anode for sodium-ion batteries. However, during the initial discharge of the HC anode, the thick solid electrolyte interphase (SEI) derived from the decomposition of the ester-based electrolytes severely restricts sodium storage kinetics. Herein, we propose a customized discharge strategy that triggers a step voltage response (SR) in the HC anode to achieve rapid interfacial passivation. Through multiscale characterizations and theoretical calculations, we elucidate the underlying mechanism: the field-induced concentration effect within the interfacial electrolyte steers the decomposition pathways toward inorganic products, favoring the formation of a thin, uniform, and highly ionically conductive SEI. The accelerated interfacial kinetics significantly lowers the diffusion barrier, thereby enhancing the accessibility of closed pores for quasi-metallic sodium cluster storage. Consequently, the SR-treated HC anode delivers improved rate performance in both the sodium-ion full battery and hybrid capacitor. This study offers critical insights into the design of the formation protocol and provides a facile field-modulated strategy to enhance the sodium storage kinetics of the HC anode.",
+   "date": "2026-11-17",
+   "issue_date": "2026-11-16",
+   "url": "https://doi.org/10.1021/acsenergylett.6c02924",
+   "venue": "ACS Energy Letters",
+   "authors": [
+    "Yining Lao",
+    "Yuecong Chen",
+    "Pengwei Jing"
+   ],
+   "query": "sodium-ion battery cathode",
+   "first_seen": "2026-11-17"
   }
  }
 }
