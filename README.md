@@ -2,49 +2,24 @@
 
 每天自动抓取 **arXiv 预印本** 与 **Crossref 期刊** 上钠离子电池相关的新文献。
 
-**最近更新**：2026-11-17 04:56 UTC　·　**今日新增**：10 篇　·　**累计收录**：16 篇
+**最近更新**：2026-11-18 04:00 UTC　·　**今日新增**：4 篇　·　**累计收录**：20 篇
 
 ---
 
 ## 今日新增
 
-- **[Molecular Engineering of Customizable Resin-Derived Hard Carbon Framework for Efficient Sodium Storage](https://doi.org/10.1021/acsami.6c19377)**  
-  <sub>2026-11-17 · ACS Applied Materials &amp; Interfaces · Xiaohui Huang、Yiduo Liu、Jingjing Hao 等（期刊期次 2026-11-17）</sub>  
-  > Owing to their high carbon yield and molecular controllability, resins have emerged as promising precursors for hard carbon (HC) anodes in sodium-ion batteries (SIBs). However, achieving synergistic optimization of carbon microcrystals and…
+- **[Unravelling Descriptor–Performance Relationships in Machine Learning of Sodium-Ion Cathode Capacity](https://doi.org/10.1016/j.electacta.2026.150474)**  
+  <sub>2026-11-18 · Electrochimica Acta · Muhammad Saeidi、Reza Ebrahimi-Kahrizsangi、Masoud Kasiri-Asgarani 等</sub>  
 
-- **[From Nonstep to Step: Voltage‑Response‑Driven Interfacial Evolution and Closed‑Pore Sodium Filling in Hard Carbon Anode](https://doi.org/10.1021/acsenergylett.6c02924)**  
-  <sub>2026-11-17 · ACS Energy Letters · Yining Lao、Yuecong Chen、Pengwei Jing 等（期刊期次 2026-11-16）</sub>  
-  > Hard carbon (HC) is regarded as the most commercially viable anode for sodium-ion batteries. However, during the initial discharge of the HC anode, the thick solid electrolyte interphase (SEI) derived from the decomposition of the ester-bas…
+- **[Na3.95Fe1.475Mn1.475V0.05(PO4)2(P2O7): A high-rate mixed-polyanion cathode with enhanced sodium-ion diffusion kinetics](https://doi.org/10.1016/j.jpowsour.2026.241981)**  
+  <sub>2026-11-17 · Journal of Power Sources · Yan Lu、Zheng Li、Yanzhe Zhang 等</sub>  
 
-- **[Effect of Cycling Protocol on the Stress and Mechanical Degradation of Hard Carbon Electrodes](https://doi.org/10.1149/1945-7111/aec2ae)**  
-  <sub>2026-11-16 · Journal of The Electrochemical Society · Amit Chanda、Abdulrahman Alfadhli、Vijay Anand Sethuraman 等（期刊期次 2026-11-16）</sub>  
-  > Maximum stress experienced by an electrode during cycling is shown to cause mechanical degradation and capacity fade, but the effect of potential window and stress range (Δσ) on cycling behavior was not investigated. Here, stresses generate…
+- **[Decoding the effect of bamboo precursor size on the microstructure and electrochemical behavior of hard carbon anodes for sodium-ion batteries](https://doi.org/10.1016/j.est.2026.125529)**  
+  <sub>2026-11-17 · Journal of Energy Storage · Yujun Li、Quanyan Man、Lin Zhao 等</sub>  
 
-- **[NASICON type LAGP solid electrolytes: A comprehensive review](https://doi.org/10.1016/j.jpowsour.2026.241935)**  
-  <sub>2026-11-16 · Journal of Power Sources · Jian Zhang、Shuangtao Pan</sub>  
-
-- **[Waste-PET-Derived Nitrogen-Doped Hard Carbon for Sodium-Ion Batteries: A Comparative Study](https://doi.org/10.3390/batteries12110491)**  
-  <sub>2026-11-16 · Batteries · Qiran Lu、Weinan Zhao、Saeed Habibpour 等（期刊期次 2026-11-16）</sub>  
-  > Sodium-ion batteries (SIBs) are regarded as a promising alternative to lithium-ion batteries (LIBs). However, their advancement is constrained by the sluggish kinetics and modest capacity of conventional hard carbon (HC) anodes. Here, we re…
-
-- **[Biomass-Derived Hard Carbon Anodes for Sodium-Ion Batteries: From Precursor Chemistry to Multiscale Structural Engineering](https://doi.org/10.3390/ma19224842)**  
-  <sub>2026-11-16 · Materials · Junxuan Zhang、Mengyao Li、Tong Li 等（期刊期次 2026-11-15）</sub>  
-  > Biomass-derived hard carbon (BHC) is a promising anode material for sodium-ion batteries owing to its renewable feedstocks, low cost, and favorable sodium-storage performance. However, variations in biomass composition and pyrolysis behavio…
-
-- **[Understanding the Role of Solid Polymer Electrolyte Network Structure and Modulus in In Situ Anode Formation of “Anode-Free” Sodium Metal Batteries](https://doi.org/10.1021/acsami.6c17291)**  
-  <sub>2026-11-16 · ACS Applied Materials &amp; Interfaces · William R. Fullerton、Mark C. Staub、Yuean Wu 等（期刊期次 2026-11-16）</sub>  
-  > “Anode-free” solid-state battery concepts based on sodium metal have attracted greater research interest recently due to their potential economic advantages, namely lower material costs and simplified, less expensive processing. However, th…
-
-- **[Highly conductive halide Na-ion conductor enabled by cost-effective aliovalent carbonate polyanion substitution for all-solid-state sodium batteries](https://doi.org/10.1038/s41467-026-79386-9)**  
-  <sub>2026-11-16 · Nature Communications · Xiaolin Guo、Man Chen、James Burrow 等（期刊期次 2026-11-16）</sub>  
-
-- **[Mechanistic Insights into Sodium Storage through Transport Kinetics, Bulk, and Interfacial Property Analyses of Hard and Soft Carbon Anodes](https://doi.org/10.1021/acsaem.6c02883)**  
-  <sub>2026-11-16 · ACS Applied Energy Materials · Israr Ahmed、Hiroyuki Ueda、Jon Serrano Sevillano 等（期刊期次 2026-11-16）</sub>  
-  > Understanding the sodium storage mechanism in disordered carbons remains critical for the development of high-capacity anodes for sodium–ion batteries. Here, we systematically investigate sodium storage in hard carbon, soft carbon, and a ha…
-
-- **[A Hybrid State Space-Attention Architecture for Forecasting the Trajectories of Battery Degradation](https://arxiv.org/abs/2611.19116)**  
-  <sub>2026-11-14 · arXiv preprint · Shrey Patel、Bhargav Srinivas Rao、Samet Ayhan 等</sub>  
-  > Early-life battery degradation trajectory forecasting aims to predict a battery cell's full state-of-health (SOH) trajectory from its initial charge-discharge cycles, potentially reducing cell qualification and evaluation time from months t…
+- **[Kinetic and Thermodynamic Limits of Sodium Pore Filling in Hard Carbon](https://arxiv.org/abs/2611.20749)**  
+  <sub>2026-11-16 · arXiv preprint · Ihor Radchenko、Andrés Felipe Usuga、Yuxin Tang 等</sub>  
+  > The low-voltage plateau-like capacity of hard carbon anodes is widely regarded as a key signature of sodium storage in closed pores, often defining the performance of Na-ion batteries. Here, we combine first-principles calculations with a g…
 
 ---
 

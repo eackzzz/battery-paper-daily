@@ -268,6 +268,73 @@
    ],
    "query": "sodium-ion battery cathode",
    "first_seen": "2026-11-17"
+  },
+  "arxiv:2611.20749": {
+   "key": "arxiv:2611.20749",
+   "source": "arXiv",
+   "title": "Kinetic and Thermodynamic Limits of Sodium Pore Filling in Hard Carbon",
+   "abstract": "The low-voltage plateau-like capacity of hard carbon anodes is widely regarded as a key signature of sodium storage in closed pores, often defining the performance of Na-ion batteries. Here, we combine first-principles calculations with a grand canonical Monte Carlo pore-filling model to show that Na storage in closed pores is not governed by a single equilibrium-plateau mechanism but by a distribution of pore-specific thermodynamic and kinetic activation processes. Thermodynamically, the voltage at which Na pore filling becomes favorable decreases with increasing pore size. Kinetically, pore filling involves Na nucleation, coalescence, growth, and bulk diffusion. While small pores fill rapidly, large pores exhibit both a smaller thermodynamic stimulus and significant kinetic limitations. Nucleation can be accelerated by introducing defects at the pore walls, although an excessively high defect concentration slows bulk diffusion. This work shows that not all closed pores contribute equally to Na storage: some may be thermodynamically favorable but kinetically inactive under realistic charge/discharge rates. Because of this, the inverse design of hard carbon electrodes should target a kinetically accessible pore-size and defect-density window that balances high plateau-like capacity with fast-charging performance.",
+   "date": "2026-11-16",
+   "url": "https://arxiv.org/abs/2611.20749",
+   "venue": "arXiv preprint",
+   "authors": [
+    "Ihor Radchenko",
+    "Andrés Felipe Usuga",
+    "Yuxin Tang"
+   ],
+   "query": "abs:sodium AND abs:battery",
+   "first_seen": "2026-11-18"
+  },
+  "doi:10.1016/j.electacta.2026.150474": {
+   "key": "doi:10.1016/j.electacta.2026.150474",
+   "source": "Crossref",
+   "title": "Unravelling Descriptor–Performance Relationships in Machine Learning of Sodium-Ion Cathode Capacity",
+   "abstract": "",
+   "date": "2026-11-18",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.electacta.2026.150474",
+   "venue": "Electrochimica Acta",
+   "authors": [
+    "Muhammad Saeidi",
+    "Reza Ebrahimi-Kahrizsangi",
+    "Masoud Kasiri-Asgarani"
+   ],
+   "query": "sodium-ion battery cathode",
+   "first_seen": "2026-11-18"
+  },
+  "doi:10.1016/j.jpowsour.2026.241981": {
+   "key": "doi:10.1016/j.jpowsour.2026.241981",
+   "source": "Crossref",
+   "title": "Na3.95Fe1.475Mn1.475V0.05(PO4)2(P2O7): A high-rate mixed-polyanion cathode with enhanced sodium-ion diffusion kinetics",
+   "abstract": "",
+   "date": "2026-11-17",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.jpowsour.2026.241981",
+   "venue": "Journal of Power Sources",
+   "authors": [
+    "Yan Lu",
+    "Zheng Li",
+    "Yanzhe Zhang"
+   ],
+   "query": "NASICON sodium solid electrolyte",
+   "first_seen": "2026-11-18"
+  },
+  "doi:10.1016/j.est.2026.125529": {
+   "key": "doi:10.1016/j.est.2026.125529",
+   "source": "Crossref",
+   "title": "Decoding the effect of bamboo precursor size on the microstructure and electrochemical behavior of hard carbon anodes for sodium-ion batteries",
+   "abstract": "",
+   "date": "2026-11-17",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.est.2026.125529",
+   "venue": "Journal of Energy Storage",
+   "authors": [
+    "Yujun Li",
+    "Quanyan Man",
+    "Lin Zhao"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "first_seen": "2026-11-18"
   }
  }
 }
