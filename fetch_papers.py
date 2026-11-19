@@ -315,7 +315,7 @@ def build_readme(recs, total, updated_at):
         "**重点推送聚阴离子路线**（NaFePO₄ / Na₃V₂(PO4)₃ / NFPP / NASICON），其次是层状氧化物、普鲁士蓝。"
         "硬碳负极、固态电解质等非正极方向已过滤。",
         "",
-        "期刊文献只保留 IF≥18 量级的顶刊（白名单见 `config.json`）；arXiv 是预印本，不做期刊过滤。",
+        "期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。",
         "",
         "**最近更新**：%s　·　**今日新增**：%d 篇　·　**累计收录**：%d 篇" % (updated_at, len(recs), total),
         "",
@@ -406,6 +406,12 @@ def main():
     # 今日新增 = first_seen 是今天的（保证重跑结果一致）
     todays = [p for p in db["papers"].values() if p.get("first_seen") == today_str]
     todays = sort_by_route(todays)
+
+    # 每日推送上限：聚阴离子优先，多出来的留在库里（papers.json 可查，不再推送）
+    cap = int(CFG.get("max_per_day", 0))
+    if cap > 0 and len(todays) > cap:
+        log("超过每日上限 %d 篇，截取前 %d 篇（多出的 %d 篇已入库不推送）" % (cap, cap, len(todays) - cap))
+        todays = todays[:cap]
 
     digest_dir = ROOT / "digest"
     digest_dir.mkdir(exist_ok=True)
