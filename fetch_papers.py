@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-钠电文献日报 —— 抓取 arXiv 与 Crossref 上与钠离子电池相关的新文献。
+钠电正极文献日报 —— 抓取 arXiv 与 Crossref 上钠离子电池正极材料的新文献。
+
+主题聚焦：钠电正极（聚阴离子优先，其次层状氧化物、普鲁士蓝）。
+硬碳负极、固态电解质、COF 等非正极方向已被过滤掉。
 
 只用标准库，不需要 pip install。
 每天由 GitHub Actions 自动跑一次，结果自动提交回仓库。
@@ -10,6 +13,7 @@
     python fetch_papers.py
 """
 
+import html
 import json
 import os
 import re
@@ -33,16 +37,49 @@ SSL_CTX = ssl._create_unverified_context() if os.environ.get("ALLOW_INSECURE_SSL
 
 ATOM = {"a": "http://www.w3.org/2005/Atom"}
 
-# 相关性过滤：标题/摘要里必须同时出现"钠"和"电池"两类词，否则丢掉
-# 相关性过滤。经验：只用"sodium + battery"两个词会混进一堆噪声
-# （钠铁酸盐净水、嗜盐菌耐盐、葡萄糖传感、镁硫电池加碘化钠……），
-# 所以必须命中"钠离子电池"这个强特征，才认为相关。
+# ---- 过滤 1：必须命中"钠离子电池"强特征，否则丢掉 ----
+# 经验：只用"sodium + battery"两个词会混进一堆噪声
+# （钠铁酸盐净水、嗜盐菌耐盐、葡萄糖传感、镁硫电池加碘化钠……）
 STRONG_RE = re.compile(
     r"sodium[-\s]?ion|na[-\s]?ion|\bsibs?\b|sodium[-\s]batter|"
     r"sodium[-\s]metal|sodium[-\s]storage|sodium[-\s]insertion|"
     r"nasicon|prussian[-\s]blue|nafepo4|na3v2|nfpp|nfpo|nafeo2|na\+",
     re.I)
 CONTEXT_RE = re.compile(r"batter|cathode|anode|electrode|electrolyte|intercalation", re.I)
+
+# ---- 过滤 2：必须是正极方向的文献 ----
+# 硬碳/电解质论文的摘要里偶尔也会提到 cathode（比如"与正极匹配"），
+# 这是这类关键词过滤的天花板，会有少量误放进来，属可接受误差。
+CATHODE_RE = re.compile(
+    r"cathode|positive[-\s]electrode|nafeo2|nafepo4|na3v2|nfpp|nfpo|"
+    r"prussian[-\s]blue|hexacyanoferrate|nasicon|layered[-\s]oxide|polyanion|"
+    r"olivine|o3[-\s]type|p2[-\s]type|p3[-\s]type|sodium[-\s]rich|na[-\s]rich|"
+    r"rock[-\s]salt|tunnel[-\s]type|phosphate|pyrophosphate|fluorophosphate",
+    re.I)
+
+# ---- 路线分类：聚阴离子优先展示，其次层状氧化物、普鲁士蓝，其余归"其他" ----
+POLYANION_RE = re.compile(
+    r"polyanion|nasicon|nafepo4|na3v2|nfpp|nfpo|na2fe|na4fe|na3fe|"
+    r"olivine|phosphate|pyrophosphate|fluorophosphate|sulfate|borate|"
+    r"vanadium[-\s]phosphate|sodium[-\s]iron",
+    re.I)
+LAYERED_RE = re.compile(
+    r"layered[-\s]oxide|o3[-\s]type|p2[-\s]type|p3[-\s]type|"
+    r"sodium[-\s]manganese|nax[a-z]*o2|nmox|lithium[-\s]?rich[-\s]?manganese",
+    re.I)
+PB_RE = re.compile(r"prussian[-\s]blue|prussian[-\s]white|hexacyanoferrate", re.I)
+
+ROUTE_ORDER = ["聚阴离子", "层状氧化物", "普鲁士蓝", "其他"]
+
+
+def classify(blob):
+    if POLYANION_RE.search(blob):
+        return "聚阴离子"
+    if LAYERED_RE.search(blob):
+        return "层状氧化物"
+    if PB_RE.search(blob):
+        return "普鲁士蓝"
+    return "其他"
 
 
 def strip_tags(text):
@@ -57,7 +94,28 @@ def norm_title(text):
 
 def relevant(rec):
     blob = strip_tags(rec.get("title", "")) + " " + strip_tags(rec.get("abstract", ""))
-    return bool(STRONG_RE.search(blob)) and bool(CONTEXT_RE.search(blob))
+    # 期刊排版常用 Unicode 连字符（‐ ‑ ‒ – — − －），不归一化会把
+    # "sodium-ion" 拆得正则认不出来，顶刊文章会被误杀。
+    blob = re.sub(r"[\u2010-\u2015\u2212\uFE63\uFF0D]", "-", blob)
+    if not (STRONG_RE.search(blob) and CONTEXT_RE.search(blob)):
+        return False
+    if not CATHODE_RE.search(blob):
+        return False
+    rec["route"] = classify(blob)
+    return True
+
+
+# ---- Crossref 期刊白名单：只保留 IF>=18 量级的顶刊（影响因子每年浮动，列表在 config.json 里改）----
+def norm_venue(v):
+    return re.sub(r"[^a-z0-9]+", "", (v or "").lower())
+
+WHITELIST = {norm_venue(v) for v in CFG.get("crossref_journal_whitelist", [])}
+
+
+def in_whitelist(venue):
+    if not WHITELIST:
+        return True
+    return norm_venue(venue) in WHITELIST
 
 
 def log(msg):
@@ -129,8 +187,10 @@ def fetch_arxiv(since_date):
 
 # ---------------------------------------------------------------- Crossref
 def fetch_crossref(since_date):
-    """按"入库时间"抓，不是按出版日期。
-    按出版日期排会抓到 2027、2028 年排期的期刊（真实存在），没法用。"""
+    """按"相关性 + 入库时间窗口"抓。
+    不能按出版日期排（会抓到 2027、2028 年排期的期刊）；
+    也不能按入库时间排（查询词会被弱化，捞回一堆无关新文章）。
+    所以：入库时间窗口交给服务端 filter，排序交给相关性 score。"""
     out = []
     fields = "DOI,title,container-title,published,created,author,URL,abstract"
     for q in CFG["crossref_queries"]:
@@ -139,7 +199,7 @@ def fetch_crossref(since_date):
             "filter": "from-created-date:%s,type:journal-article" % since_date,
             "rows": CFG["max_per_query_crossref"],
             "select": fields,
-            "sort": "created",
+            "sort": "score",
             "order": "desc",
         })
         try:
@@ -154,6 +214,9 @@ def fetch_crossref(since_date):
                 continue
             created = (it.get("created") or {}).get("date-time", "")[:10]
             if not created or created < since_date:
+                continue
+            venue = clean((it.get("container-title") or [""])[0])
+            if not in_whitelist(venue):
                 continue
             parts = (it.get("published") or {}).get("date-parts") or [[None]]
             issue = ""
@@ -174,7 +237,7 @@ def fetch_crossref(since_date):
                 "date": created,
                 "issue_date": issue,
                 "url": it.get("URL") or ("https://doi.org/" + it.get("DOI", "")),
-                "venue": clean((it.get("container-title") or [""])[0]),
+                "venue": venue,
                 "authors": names,
                 "query": q,
             }
@@ -213,27 +276,46 @@ def render_items(recs):
     return lines
 
 
+def group_by_route(recs):
+    groups = {}
+    for r in recs:
+        groups.setdefault(r.get("route", "其他"), []).append(r)
+    return groups
+
+
 def build_digest(recs, day):
-    lines = ["# 钠电文献日报 · %s" % day, ""]
+    lines = ["# 钠电正极文献日报 · %s" % day, ""]
     if not recs:
         lines.append("今天没有抓到新文献。可能是周末、arXiv 未更新，或关键词太窄。")
         return "\n".join(lines) + "\n"
-    arx = [r for r in recs if r["source"] == "arXiv"]
-    cr = [r for r in recs if r["source"] == "Crossref"]
-    lines.append("共 %d 篇：arXiv %d 篇，Crossref %d 篇。" % (len(recs), len(arx), len(cr)))
+    lines.append("共 %d 篇。" % len(recs))
     lines.append("")
-    if arx:
-        lines += ["## arXiv 预印本", ""] + render_items(arx)
-    if cr:
-        lines += ["## Crossref 期刊", ""] + render_items(cr)
+    groups = group_by_route(recs)
+    for route in ROUTE_ORDER:
+        rs = groups.get(route)
+        if not rs:
+            continue
+        lines += ["## %s（%d 篇）" % (route, len(rs)), ""] + render_items(rs)
     return "\n".join(lines)
+
+
+def sort_by_route(recs):
+    """聚阴离子排最前，组内按日期倒序。"""
+    def key(r):
+        return (ROUTE_ORDER.index(r.get("route", "其他")), [-ord(c) for c in r.get("date", "")])
+    return sorted(recs, key=key)
 
 
 def build_readme(recs, total, updated_at):
     head = [
-        "# 钠电文献日报",
+        "# 钠电正极文献日报",
         "",
-        "每天自动抓取 **arXiv 预印本** 与 **Crossref 期刊** 上钠离子电池相关的新文献。",
+        "每天自动抓取 **arXiv 预印本** 与 **Crossref 期刊** 上钠离子电池**正极材料**的新文献。",
+        "",
+        "**重点推送聚阴离子路线**（NaFePO₄ / Na₃V₂(PO4)₃ / NFPP / NASICON），其次是层状氧化物、普鲁士蓝。"
+        "硬碳负极、固态电解质等非正极方向已过滤。",
+        "",
+        "期刊文献只保留 IF≥18 量级的顶刊（白名单见 `config.json`）；arXiv 是预印本，不做期刊过滤。",
         "",
         "**最近更新**：%s　·　**今日新增**：%d 篇　·　**累计收录**：%d 篇" % (updated_at, len(recs), total),
         "",
@@ -243,10 +325,10 @@ def build_readme(recs, total, updated_at):
         "",
     ]
     if not recs:
-        body = ["今天没有新文献。若连续几天为空，请检查 `config.json` 里的关键词。", ""]
+        body = ["今天没有新文献。若连续几天为空，请检查 `config.json` 里的关键词和期刊白名单。", ""]
     else:
         limit = CFG.get("max_listed_in_readme", 40)
-        shown = recs[:limit]
+        shown = sort_by_route(recs)[:limit]
         body = render_items(shown)
         if len(recs) > limit:
             body.append("> 还有 %d 篇，见 `digest/%s.md`。" % (len(recs) - limit, updated_at[:10]))
@@ -260,15 +342,17 @@ def build_readme(recs, total, updated_at):
         "",
         "**改关键词**：编辑 `config.json` 里的 `arxiv_queries` 和 `crossref_queries`，提交后第二天生效。",
         "",
-        "**马上跑一次**：仓库页 → Actions → 左侧「钠电文献日报」→ 右侧 Run workflow。",
+        "**改期刊白名单**：`config.json` 里的 `crossref_journal_whitelist`，一行一个刊名（IF 每年会浮动，自行增删）。",
+        "",
+        "**马上跑一次**：仓库页 → Actions → 左侧「钠电正极文献日报」→ 右侧 Run workflow。",
         "",
         "**改时间**：`.github/workflows/daily.yml` 里的 `cron: \"0 23 * * *\"` 是 UTC，23:00 UTC = 北京时间次日 07:00。想改北京时间 08:00 就写 `0 0 * * *`。",
         "",
         "**往期存档**：`digest/` 目录，一天一个 md 文件。",
         "",
-        "**去重**：`data/papers.json` 记录所有见过的文献，同一篇不会重复出现。想重新来过就清空这个文件。",
+        "**去重**：`data/papers.json` 记录所有见过的文献，同一篇不会重复出现。换方向后想重新来过，就把这个文件内容改成 `{\"papers\": {}}`。",
         "",
-        "**为什么某天没有新文献**：arXiv 周末不更新，Crossref 期刊也有淡季。连续三天为空才需要检查配置。",
+        "**为什么某天没有新文献**：顶刊 + 正极两个条件叠加后，一天一两条是正常频率。arXiv 周末不更新，Crossref 也有淡季。连续三天为空才需要检查配置。",
         "",
         "</details>",
         "",
@@ -321,7 +405,7 @@ def main():
 
     # 今日新增 = first_seen 是今天的（保证重跑结果一致）
     todays = [p for p in db["papers"].values() if p.get("first_seen") == today_str]
-    todays.sort(key=lambda x: (x.get("date", ""), x.get("source", "")), reverse=True)
+    todays = sort_by_route(todays)
 
     digest_dir = ROOT / "digest"
     digest_dir.mkdir(exist_ok=True)
