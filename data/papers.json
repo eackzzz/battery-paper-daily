@@ -352,6 +352,60 @@
    ],
    "query": "sodium-ion battery cathode",
    "first_seen": "2026-11-19"
+  },
+  "doi:10.1016/j.ensm.2026.105668": {
+   "key": "doi:10.1016/j.ensm.2026.105668",
+   "source": "Crossref",
+   "title": "Impurity-driven electrochemical degradation in carbon-coated Na3V2(PO4)2F3 positive electrode materials for high-power sodium-ion batteries",
+   "abstract": "",
+   "date": "2026-11-18",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.ensm.2026.105668",
+   "venue": "Energy Storage Materials",
+   "authors": [
+    "Chloé Pablos",
+    "François Fauth",
+    "Matthieu Duttine"
+   ],
+   "query": "Na3V2(PO4)3 sodium cathode",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-19"
+  },
+  "doi:10.1002/adma.75698": {
+   "key": "doi:10.1002/adma.75698",
+   "source": "Crossref",
+   "title": "Spin‐State Regulation Engineering of Pyrophosphate‐Based Polyanionic Cathodes for Ultra‐Long‐Life Sodium‐Ion Batteries",
+   "abstract": "Developing sodium‐ion cathodes that combine high energy density with ultralong cycling stability requires structural regulation beyond conventional surface modification or single‐site doping. Here, a spin‐state regulation strategy is introduced for iron‐based pyrophosphate cathodes by synergistically substituting Mn and F into Na 3.12 Fe 2.44 (P 2 O 7 ) 2 . The resulting Na 2.92 Fe 2.24 Mn 0.2 (P 2 O 6.9 F 0.1 ) 2 (NFMnPF) modulates an intermediate‐spin Fe 2+ configuration that redistributes charge within the Fe─O─P framework and promotes cooperative Fe─O/Mn─O bond evolution during Na + insertion/extraction. Magnetic susceptibility, Mössbauer spectroscopy, electron paramagnetic resonance, UV‐vis diffuse reflectance spectroscopy, conductivity measurements, in situ x‐ray diffraction, and density functional theory collectively support this electronic structural coupling, revealing narrowed electronic band gap, reduced Na + migration barrier, suppressed volume variation, and highly reversible lattice evolution. As a result, the co‐doped cathode delivers 115.75 mAh g −1 at 0.1 C, an energy density of 336 Wh kg −1 , and exceptional high‐rate durability, retaining 70% capacity after 24 000 cycles at 10 C and 80.93% after 10 000 cycles at 20 C. A hard‐carbon//NFMnPF full cell further achieves energy density of 319.54 Wh kg −1 (based on the cathode active mass) with stable cycling. These findings establish spin‐state mediated cooperative strain accommodation as a powerful design principle for intrinsically durable polyanionic sodium‐ion cathodes.",
+   "date": "2026-11-14",
+   "issue_date": "2026-11-14",
+   "url": "https://doi.org/10.1002/adma.75698",
+   "venue": "Advanced Materials",
+   "authors": [
+    "Sharad Dnyanu Pinjari",
+    "Tasdique Arman",
+    "Ipsita Pal"
+   ],
+   "query": "pyrophosphate sodium cathode",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-19"
+  },
+  "doi:10.1016/j.ensm.2026.105651": {
+   "key": "doi:10.1016/j.ensm.2026.105651",
+   "source": "Crossref",
+   "title": "Multi-component M-site doping enhances Na-ion transport in Na3Fe2(PO4)3 NASICON cathodes: a high-throughput computational study",
+   "abstract": "",
+   "date": "2026-11-12",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.ensm.2026.105651",
+   "venue": "Energy Storage Materials",
+   "authors": [
+    "Woojin Shin",
+    "Jonghyuk Kim",
+    "Jungjae Hwang"
+   ],
+   "query": "NASICON cathode sodium",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-19"
   }
  }
 }

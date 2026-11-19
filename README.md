@@ -1,12 +1,26 @@
-# 钠电文献日报
+# 钠电正极文献日报
 
-每天自动抓取 **arXiv 预印本** 与 **Crossref 期刊** 上钠离子电池相关的新文献。
+每天自动抓取 **arXiv 预印本** 与 **Crossref 期刊** 上钠离子电池**正极材料**的新文献。
 
-**最近更新**：2026-11-19 03:57 UTC　·　**今日新增**：1 篇　·　**累计收录**：21 篇
+**重点推送聚阴离子路线**（NaFePO₄ / Na₃V₂(PO4)₃ / NFPP / NASICON），其次是层状氧化物、普鲁士蓝。硬碳负极、固态电解质等非正极方向已过滤。
+
+期刊文献只保留 IF≥18 量级的顶刊（白名单见 `config.json`）；arXiv 是预印本，不做期刊过滤。
+
+**最近更新**：2026-11-19 08:57 UTC　·　**今日新增**：4 篇　·　**累计收录**：24 篇
 
 ---
 
 ## 今日新增
+
+- **[Impurity-driven electrochemical degradation in carbon-coated Na3V2(PO4)2F3 positive electrode materials for high-power sodium-ion batteries](https://doi.org/10.1016/j.ensm.2026.105668)**  
+  <sub>2026-11-18 · Energy Storage Materials · Chloé Pablos、François Fauth、Matthieu Duttine 等</sub>  
+
+- **[Spin‐State Regulation Engineering of Pyrophosphate‐Based Polyanionic Cathodes for Ultra‐Long‐Life Sodium‐Ion Batteries](https://doi.org/10.1002/adma.75698)**  
+  <sub>2026-11-14 · Advanced Materials · Sharad Dnyanu Pinjari、Tasdique Arman、Ipsita Pal 等（期刊期次 2026-11-14）</sub>  
+  > Developing sodium‐ion cathodes that combine high energy density with ultralong cycling stability requires structural regulation beyond conventional surface modification or single‐site doping. Here, a spin‐state regulation strategy is introd…
+
+- **[Multi-component M-site doping enhances Na-ion transport in Na3Fe2(PO4)3 NASICON cathodes: a high-throughput computational study](https://doi.org/10.1016/j.ensm.2026.105651)**  
+  <sub>2026-11-12 · Energy Storage Materials · Woojin Shin、Jonghyuk Kim、Jungjae Hwang 等</sub>  
 
 - **[Biomass-derived hard carbon anodes for sodium-ion batteries: A critical review of structure engineering, sodium storage mechanisms, and practical performance](https://doi.org/10.1016/j.biortech.2026.136275)**  
   <sub>2026-11-19 · Bioresource Technology · Yifan Chen、Zhaojun Wu、Bingzhou Bai 等</sub>  
@@ -18,14 +32,16 @@
 
 **改关键词**：编辑 `config.json` 里的 `arxiv_queries` 和 `crossref_queries`，提交后第二天生效。
 
-**马上跑一次**：仓库页 → Actions → 左侧「钠电文献日报」→ 右侧 Run workflow。
+**改期刊白名单**：`config.json` 里的 `crossref_journal_whitelist`，一行一个刊名（IF 每年会浮动，自行增删）。
+
+**马上跑一次**：仓库页 → Actions → 左侧「钠电正极文献日报」→ 右侧 Run workflow。
 
 **改时间**：`.github/workflows/daily.yml` 里的 `cron: "0 23 * * *"` 是 UTC，23:00 UTC = 北京时间次日 07:00。想改北京时间 08:00 就写 `0 0 * * *`。
 
 **往期存档**：`digest/` 目录，一天一个 md 文件。
 
-**去重**：`data/papers.json` 记录所有见过的文献，同一篇不会重复出现。想重新来过就清空这个文件。
+**去重**：`data/papers.json` 记录所有见过的文献，同一篇不会重复出现。换方向后想重新来过，就把这个文件内容改成 `{"papers": {}}`。
 
-**为什么某天没有新文献**：arXiv 周末不更新，Crossref 期刊也有淡季。连续三天为空才需要检查配置。
+**为什么某天没有新文献**：顶刊 + 正极两个条件叠加后，一天一两条是正常频率。arXiv 周末不更新，Crossref 也有淡季。连续三天为空才需要检查配置。
 
 </details>
