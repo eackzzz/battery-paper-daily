@@ -4,9 +4,9 @@
 
 **重点推送聚阴离子路线**（NaFePO₄ / Na₃V₂(PO4)₃ / NFPP / NASICON），其次是层状氧化物、普鲁士蓝。硬碳负极、固态电解质等非正极方向已过滤。
 
-期刊文献只保留 IF≥18 量级的顶刊（白名单见 `config.json`）；arXiv 是预印本，不做期刊过滤。
+期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-19 08:57 UTC　·　**今日新增**：4 篇　·　**累计收录**：24 篇
+**最近更新**：2026-11-19 09:17 UTC　·　**今日新增**：3 篇　·　**累计收录**：24 篇
 
 ---
 
@@ -21,9 +21,6 @@
 
 - **[Multi-component M-site doping enhances Na-ion transport in Na3Fe2(PO4)3 NASICON cathodes: a high-throughput computational study](https://doi.org/10.1016/j.ensm.2026.105651)**  
   <sub>2026-11-12 · Energy Storage Materials · Woojin Shin、Jonghyuk Kim、Jungjae Hwang 等</sub>  
-
-- **[Biomass-derived hard carbon anodes for sodium-ion batteries: A critical review of structure engineering, sodium storage mechanisms, and practical performance](https://doi.org/10.1016/j.biortech.2026.136275)**  
-  <sub>2026-11-19 · Bioresource Technology · Yifan Chen、Zhaojun Wu、Bingzhou Bai 等</sub>  
 
 ---
 
