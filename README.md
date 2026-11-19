@@ -2,24 +2,14 @@
 
 每天自动抓取 **arXiv 预印本** 与 **Crossref 期刊** 上钠离子电池相关的新文献。
 
-**最近更新**：2026-11-18 04:00 UTC　·　**今日新增**：4 篇　·　**累计收录**：20 篇
+**最近更新**：2026-11-19 03:57 UTC　·　**今日新增**：1 篇　·　**累计收录**：21 篇
 
 ---
 
 ## 今日新增
 
-- **[Unravelling Descriptor–Performance Relationships in Machine Learning of Sodium-Ion Cathode Capacity](https://doi.org/10.1016/j.electacta.2026.150474)**  
-  <sub>2026-11-18 · Electrochimica Acta · Muhammad Saeidi、Reza Ebrahimi-Kahrizsangi、Masoud Kasiri-Asgarani 等</sub>  
-
-- **[Na3.95Fe1.475Mn1.475V0.05(PO4)2(P2O7): A high-rate mixed-polyanion cathode with enhanced sodium-ion diffusion kinetics](https://doi.org/10.1016/j.jpowsour.2026.241981)**  
-  <sub>2026-11-17 · Journal of Power Sources · Yan Lu、Zheng Li、Yanzhe Zhang 等</sub>  
-
-- **[Decoding the effect of bamboo precursor size on the microstructure and electrochemical behavior of hard carbon anodes for sodium-ion batteries](https://doi.org/10.1016/j.est.2026.125529)**  
-  <sub>2026-11-17 · Journal of Energy Storage · Yujun Li、Quanyan Man、Lin Zhao 等</sub>  
-
-- **[Kinetic and Thermodynamic Limits of Sodium Pore Filling in Hard Carbon](https://arxiv.org/abs/2611.20749)**  
-  <sub>2026-11-16 · arXiv preprint · Ihor Radchenko、Andrés Felipe Usuga、Yuxin Tang 等</sub>  
-  > The low-voltage plateau-like capacity of hard carbon anodes is widely regarded as a key signature of sodium storage in closed pores, often defining the performance of Na-ion batteries. Here, we combine first-principles calculations with a g…
+- **[Biomass-derived hard carbon anodes for sodium-ion batteries: A critical review of structure engineering, sodium storage mechanisms, and practical performance](https://doi.org/10.1016/j.biortech.2026.136275)**  
+  <sub>2026-11-19 · Bioresource Technology · Yifan Chen、Zhaojun Wu、Bingzhou Bai 等</sub>  
 
 ---
 

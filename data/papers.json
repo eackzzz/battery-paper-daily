@@ -335,6 +335,23 @@
    ],
    "query": "NaFePO4 cathode sodium",
    "first_seen": "2026-11-18"
+  },
+  "doi:10.1016/j.biortech.2026.136275": {
+   "key": "doi:10.1016/j.biortech.2026.136275",
+   "source": "Crossref",
+   "title": "Biomass-derived hard carbon anodes for sodium-ion batteries: A critical review of structure engineering, sodium storage mechanisms, and practical performance",
+   "abstract": "",
+   "date": "2026-11-19",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.biortech.2026.136275",
+   "venue": "Bioresource Technology",
+   "authors": [
+    "Yifan Chen",
+    "Zhaojun Wu",
+    "Bingzhou Bai"
+   ],
+   "query": "sodium-ion battery cathode",
+   "first_seen": "2026-11-19"
   }
  }
 }
