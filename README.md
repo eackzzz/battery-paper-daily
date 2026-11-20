@@ -6,21 +6,15 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-19 09:17 UTC　·　**今日新增**：3 篇　·　**累计收录**：24 篇
+**最近更新**：2026-11-20 03:55 UTC　·　**今日新增**：1 篇　·　**累计收录**：25 篇
 
 ---
 
 ## 今日新增
 
-- **[Impurity-driven electrochemical degradation in carbon-coated Na3V2(PO4)2F3 positive electrode materials for high-power sodium-ion batteries](https://doi.org/10.1016/j.ensm.2026.105668)**  
-  <sub>2026-11-18 · Energy Storage Materials · Chloé Pablos、François Fauth、Matthieu Duttine 等</sub>  
-
-- **[Spin‐State Regulation Engineering of Pyrophosphate‐Based Polyanionic Cathodes for Ultra‐Long‐Life Sodium‐Ion Batteries](https://doi.org/10.1002/adma.75698)**  
-  <sub>2026-11-14 · Advanced Materials · Sharad Dnyanu Pinjari、Tasdique Arman、Ipsita Pal 等（期刊期次 2026-11-14）</sub>  
-  > Developing sodium‐ion cathodes that combine high energy density with ultralong cycling stability requires structural regulation beyond conventional surface modification or single‐site doping. Here, a spin‐state regulation strategy is introd…
-
-- **[Multi-component M-site doping enhances Na-ion transport in Na3Fe2(PO4)3 NASICON cathodes: a high-throughput computational study](https://doi.org/10.1016/j.ensm.2026.105651)**  
-  <sub>2026-11-12 · Energy Storage Materials · Woojin Shin、Jonghyuk Kim、Jungjae Hwang 等</sub>  
+- **[A Three-Motif-Based One-Dimensional Covalent Organic Framework as an Efficient Cathode Material for Stable Rechargeable Sodium-Ion Batteries](https://doi.org/10.1021/jacs.6c17196)**  
+  <sub>2026-11-19 · Journal of the American Chemical Society · Jinglun Yang、Wenjun Li、Yuchan Zhang 等（期刊期次 2026-11-19）</sub>  
+  > Crystalline one-dimensional covalent organic frameworks (1D COFs) hold great promise for diverse applications; however, their synthesis remains challenging, as it requires simultaneous control over chain dimensionality and crystallization o…
 
 ---
 
