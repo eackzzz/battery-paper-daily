@@ -424,6 +424,24 @@
    "query": "sodium-ion battery cathode polyanion",
    "route": "其他",
    "first_seen": "2026-11-20"
+  },
+  "doi:10.1002/aenm.71842": {
+   "key": "doi:10.1002/aenm.71842",
+   "source": "Crossref",
+   "title": "Re‐Evaluating the Role of Water in Hexacyanoferrate Cathodes for Sodium and Potassium Ion Batteries",
+   "abstract": "Hexacyanoferrates (HCFs) are among the most promising cathode materials for sodium‐ion and potassium‐ion batteries owing to their open three‐dimensional framework, high operating voltage, and fast alkali‐ion transport. As an unavoidable constituent of hexacyanoferrates (HCFs), water is intimately associated with crystal growth, vacancy formation, local coordination, and framework stability. Water has long been regarded primarily as a detrimental impurity in cathodes because it blocks ion transport, accelerates electrolyte decomposition, and promotes structural degradation. However, recent studies indicate that interstitial and coordinated water exhibit distinct binding strengths, mobilities, and electrochemical reactivities, rendering their roles far more complex than can be described by total water content alone. In this Review, we re‐evaluate the role of water in HCF cathodes by redefining it from a structural impurity to a functional component. We discuss how water governs crystal structure, electronic structure, ion transport, interfacial reactions, and electrochemical performance. We further summarize advanced characterization techniques, particularly neutron methods, for probing the dynamic behavior of water molecules, and highlight regulation strategies. This work establishes a unified framework linking water with crystal, electronic structure, and electrochemical behavior, providing guidance for the rational design of high‐performance HCF cathodes.",
+   "date": "2026-11-20",
+   "issue_date": "2026-11-19",
+   "url": "https://doi.org/10.1002/aenm.71842",
+   "venue": "Advanced Energy Materials",
+   "authors": [
+    "Xiaoxia Li",
+    "Heyang Du",
+    "Hui Ying Yang"
+   ],
+   "query": "sodium-ion battery cathode polyanion",
+   "route": "普鲁士蓝",
+   "first_seen": "2026-11-21"
   }
  }
 }

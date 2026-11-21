@@ -6,15 +6,15 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-20 03:55 UTC　·　**今日新增**：1 篇　·　**累计收录**：25 篇
+**最近更新**：2026-11-21 03:52 UTC　·　**今日新增**：1 篇　·　**累计收录**：26 篇
 
 ---
 
 ## 今日新增
 
-- **[A Three-Motif-Based One-Dimensional Covalent Organic Framework as an Efficient Cathode Material for Stable Rechargeable Sodium-Ion Batteries](https://doi.org/10.1021/jacs.6c17196)**  
-  <sub>2026-11-19 · Journal of the American Chemical Society · Jinglun Yang、Wenjun Li、Yuchan Zhang 等（期刊期次 2026-11-19）</sub>  
-  > Crystalline one-dimensional covalent organic frameworks (1D COFs) hold great promise for diverse applications; however, their synthesis remains challenging, as it requires simultaneous control over chain dimensionality and crystallization o…
+- **[Re‐Evaluating the Role of Water in Hexacyanoferrate Cathodes for Sodium and Potassium Ion Batteries](https://doi.org/10.1002/aenm.71842)**  
+  <sub>2026-11-20 · Advanced Energy Materials · Xiaoxia Li、Heyang Du、Hui Ying Yang 等（期刊期次 2026-11-19）</sub>  
+  > Hexacyanoferrates (HCFs) are among the most promising cathode materials for sodium‐ion and potassium‐ion batteries owing to their open three‐dimensional framework, high operating voltage, and fast alkali‐ion transport. As an unavoidable con…
 
 ---
 
