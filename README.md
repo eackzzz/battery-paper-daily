@@ -6,15 +6,13 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-21 03:52 UTC　·　**今日新增**：1 篇　·　**累计收录**：26 篇
+**最近更新**：2026-11-22 02:56 UTC　·　**今日新增**：0 篇　·　**累计收录**：26 篇
 
 ---
 
 ## 今日新增
 
-- **[Re‐Evaluating the Role of Water in Hexacyanoferrate Cathodes for Sodium and Potassium Ion Batteries](https://doi.org/10.1002/aenm.71842)**  
-  <sub>2026-11-20 · Advanced Energy Materials · Xiaoxia Li、Heyang Du、Hui Ying Yang 等（期刊期次 2026-11-19）</sub>  
-  > Hexacyanoferrates (HCFs) are among the most promising cathode materials for sodium‐ion and potassium‐ion batteries owing to their open three‐dimensional framework, high operating voltage, and fast alkali‐ion transport. As an unavoidable con…
+今天没有新文献。若连续几天为空，请检查 `config.json` 里的关键词和期刊白名单。
 
 ---
 
