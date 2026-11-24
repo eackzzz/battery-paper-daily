@@ -442,6 +442,42 @@
    "query": "sodium-ion battery cathode polyanion",
    "route": "普鲁士蓝",
    "first_seen": "2026-11-21"
+  },
+  "doi:10.1016/j.nanoen.2026.112650": {
+   "key": "doi:10.1016/j.nanoen.2026.112650",
+   "source": "Crossref",
+   "title": "Bulk Chemical Imbalance Induced by Transition Metal Migration Causes Capacity Decay in Layered Sodium-Ion Battery Cathodes",
+   "abstract": "",
+   "date": "2026-11-23",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.nanoen.2026.112650",
+   "venue": "Nano Energy",
+   "authors": [
+    "Jiao Tian",
+    "Zhenfei Tang",
+    "Xiaopeng Cheng"
+   ],
+   "query": "sodium-ion battery cathode polyanion",
+   "route": "其他",
+   "first_seen": "2026-11-24"
+  },
+  "doi:10.1016/j.ensm.2026.105682": {
+   "key": "doi:10.1016/j.ensm.2026.105682",
+   "source": "Crossref",
+   "title": "Targeted Redox Removal of Structural Water in High-Entropy Prussian Blue Analogue Cathodes for High-Performance Sodium-Ion Batteries",
+   "abstract": "",
+   "date": "2026-11-23",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.ensm.2026.105682",
+   "venue": "Energy Storage Materials",
+   "authors": [
+    "Yifan Zhang",
+    "Junyao Song",
+    "Hailong Wang"
+   ],
+   "query": "Prussian blue analogue sodium cathode",
+   "route": "普鲁士蓝",
+   "first_seen": "2026-11-24"
   }
  }
 }

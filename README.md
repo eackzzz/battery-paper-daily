@@ -6,13 +6,17 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-23 03:38 UTC　·　**今日新增**：0 篇　·　**累计收录**：26 篇
+**最近更新**：2026-11-24 06:53 UTC　·　**今日新增**：2 篇　·　**累计收录**：28 篇
 
 ---
 
 ## 今日新增
 
-今天没有新文献。若连续几天为空，请检查 `config.json` 里的关键词和期刊白名单。
+- **[Targeted Redox Removal of Structural Water in High-Entropy Prussian Blue Analogue Cathodes for High-Performance Sodium-Ion Batteries](https://doi.org/10.1016/j.ensm.2026.105682)**  
+  <sub>2026-11-23 · Energy Storage Materials · Yifan Zhang、Junyao Song、Hailong Wang 等</sub>  
+
+- **[Bulk Chemical Imbalance Induced by Transition Metal Migration Causes Capacity Decay in Layered Sodium-Ion Battery Cathodes](https://doi.org/10.1016/j.nanoen.2026.112650)**  
+  <sub>2026-11-23 · Nano Energy · Jiao Tian、Zhenfei Tang、Xiaopeng Cheng 等</sub>  
 
 ---
 
