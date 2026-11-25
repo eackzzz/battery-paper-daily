@@ -6,17 +6,19 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-24 06:53 UTC　·　**今日新增**：2 篇　·　**累计收录**：28 篇
+**最近更新**：2026-11-25 05:20 UTC　·　**今日新增**：2 篇　·　**累计收录**：30 篇
 
 ---
 
 ## 今日新增
 
-- **[Targeted Redox Removal of Structural Water in High-Entropy Prussian Blue Analogue Cathodes for High-Performance Sodium-Ion Batteries](https://doi.org/10.1016/j.ensm.2026.105682)**  
-  <sub>2026-11-23 · Energy Storage Materials · Yifan Zhang、Junyao Song、Hailong Wang 等</sub>  
+- **[Interfacial Electronic‐Structural Coupling Suppresses Jahn‐Teller Instability in NASICON Cathode Casting Long Cycling Life](https://doi.org/10.1002/adma.75835)**  
+  <sub>2026-11-24 · Advanced Materials · Xinran Qi、Zhuangze Liu、Zhenrong Fu 等（期刊期次 2026-11-24）</sub>  
+  > NASICON‐type Na 4 VMn(PO 4 ) 3 cathodes possess attractive high‐voltage and structural robustness, yet its application is hindered by the intrinsic instability of Mn 3+ ‐induced Jahn‐Teller distortion. A mosaic‐like Na 4 VMn(PO 4 ) 3 /NaFeP…
 
-- **[Bulk Chemical Imbalance Induced by Transition Metal Migration Causes Capacity Decay in Layered Sodium-Ion Battery Cathodes](https://doi.org/10.1016/j.nanoen.2026.112650)**  
-  <sub>2026-11-23 · Nano Energy · Jiao Tian、Zhenfei Tang、Xiaopeng Cheng 等</sub>  
+- **[Hierarchical Order‐Disorder Architecture Enables Reversible Mg–N Coordination in Prussian Blue Analogues for Aqueous Mg Ion Storage](https://doi.org/10.1002/adfm.79779)**  
+  <sub>2026-11-24 · Advanced Functional Materials · Yangyang Sui、Weizhi Kou、Haobo Wang 等（期刊期次 2026-11-23）</sub>  
+  > Prussian blue analogues (PBAs) are promising cathodes for aqueous magnesium ion batteries (AMIBs), yet their Mg 2+ storage chemistry is commonly limited by weak interaction between divalent Mg 2+ and the rigid cyanide‐bridged framework. Her…
 
 ---
 

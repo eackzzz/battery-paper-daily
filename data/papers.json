@@ -478,6 +478,42 @@
    "query": "Prussian blue analogue sodium cathode",
    "route": "普鲁士蓝",
    "first_seen": "2026-11-24"
+  },
+  "doi:10.1002/adma.75835": {
+   "key": "doi:10.1002/adma.75835",
+   "source": "Crossref",
+   "title": "Interfacial Electronic‐Structural Coupling Suppresses Jahn‐Teller Instability in NASICON Cathode Casting Long Cycling Life",
+   "abstract": "NASICON‐type Na 4 VMn(PO 4 ) 3 cathodes possess attractive high‐voltage and structural robustness, yet its application is hindered by the intrinsic instability of Mn 3+ ‐induced Jahn‐Teller distortion. A mosaic‐like Na 4 VMn(PO 4 ) 3 /NaFePO 4 (NVMP/NFP) heterostructure is constructed to achieve interfacial electronic‐structural synergistic regulation. The nanoscale heterointerfaces induce charge redistribution and modify the local electronic environment, thereby strengthening Mn─O interactions indirectly and interrupting the spatial correlation of local distortions, which successfully suppresses the Jahn‐Teller instability. The suppression of local electronic instability by the NVMP/NFP heterostructure is confirmed by complementary experimental and theoretical analyses, which further reveal reversible V 3+ /V 4+ and Mn 2+ /Mn 3+ redox reactions. Furthermore, the heterointerface reconstructs the Na + transport network by generating more interconnected and multidimensional migration pathways with reduced diffusion barriers, mitigates the accumulation of lattice strain during Na + extraction/insertion and fosters electron transfer, casting fast reversible electrochemical reaction. Benefiting from this interfacial electronic‐structural coupling, the optimized NVMP/NFP cathode delivers excellent wide‐temperature cycling stability, retaining 89.91% capacity after 6000 cycles at 2 A g −1 , 91.80% after 2500 cycles at ‐15°C, and 80.23% after 6000 cycles at 45°C. This work provides an interfacial engineering strategy for decoupling electronic instability from structural degradation and offers a general pathway for stabilizing Jahn‐Teller active electrode materials.",
+   "date": "2026-11-24",
+   "issue_date": "2026-11-24",
+   "url": "https://doi.org/10.1002/adma.75835",
+   "venue": "Advanced Materials",
+   "authors": [
+    "Xinran Qi",
+    "Zhuangze Liu",
+    "Zhenrong Fu"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-25"
+  },
+  "doi:10.1002/adfm.79779": {
+   "key": "doi:10.1002/adfm.79779",
+   "source": "Crossref",
+   "title": "Hierarchical Order‐Disorder Architecture Enables Reversible Mg–N Coordination in Prussian Blue Analogues for Aqueous Mg Ion Storage",
+   "abstract": "Prussian blue analogues (PBAs) are promising cathodes for aqueous magnesium ion batteries (AMIBs), yet their Mg 2+ storage chemistry is commonly limited by weak interaction between divalent Mg 2+ and the rigid cyanide‐bridged framework. Herein, we present a hierarchical order‐disorder engineering strategy to reshape the local coordination chemistry of FeCo‐PBA through Sn/Mn regulation. The resulting FeCoSnMn‐PBA integrates a long‐range ordered Fe─C≡N─M framework with short‐range disordered coordination domains, simultaneously preserving framework stability and electronically activating framework N sites. In situ Raman spectroscopy, charge density difference analysis, in situ XRD, and electronic structure calculations reveal that the activated N sites enable a reversible Mg─N coordination‐mediated storage mechanism, moving beyond conventional interstitial Mg 2+ accommodation in PBA cathodes. This coordination‐regulated chemistry promotes homogeneous Mg 2+ storage, rapid charge and mass transfer, and highly reversible lattice evolution. Consequently, the FeCoSnMn‐PBA//activated carbon (AC) hybrid device delivers 149.4 mAh g −1 at 0.1 A g −1 and retains 72.9 mAh g −1 after 5000 cycles at 1.0 A g −1 . A FeCoSnMn‐PBA//perylene‐3,4,9,10‐tetracarboxylic dianhydride (PTCDA) full cell further demonstrates stable Mg 2+ storage. This work establishes local structure regulation as a powerful route to modulate coordination‐mediated multivalent ion storage in PBA frameworks.",
+   "date": "2026-11-24",
+   "issue_date": "2026-11-23",
+   "url": "https://doi.org/10.1002/adfm.79779",
+   "venue": "Advanced Functional Materials",
+   "authors": [
+    "Yangyang Sui",
+    "Weizhi Kou",
+    "Haobo Wang"
+   ],
+   "query": "Prussian blue analogue sodium cathode",
+   "route": "普鲁士蓝",
+   "first_seen": "2026-11-25"
   }
  }
 }
