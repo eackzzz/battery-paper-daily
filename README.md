@@ -6,19 +6,23 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-25 05:20 UTC　·　**今日新增**：2 篇　·　**累计收录**：30 篇
+**最近更新**：2026-11-26 04:49 UTC　·　**今日新增**：3 篇　·　**累计收录**：35 篇
 
 ---
 
 ## 今日新增
 
-- **[Interfacial Electronic‐Structural Coupling Suppresses Jahn‐Teller Instability in NASICON Cathode Casting Long Cycling Life](https://doi.org/10.1002/adma.75835)**  
-  <sub>2026-11-24 · Advanced Materials · Xinran Qi、Zhuangze Liu、Zhenrong Fu 等（期刊期次 2026-11-24）</sub>  
-  > NASICON‐type Na 4 VMn(PO 4 ) 3 cathodes possess attractive high‐voltage and structural robustness, yet its application is hindered by the intrinsic instability of Mn 3+ ‐induced Jahn‐Teller distortion. A mosaic‐like Na 4 VMn(PO 4 ) 3 /NaFeP…
+- **[Tailoring the Na + Transport Microenvironment With an Anion‐Capturing Interface Enables Low‐Temperature, Fast‐Charging Sodium‐Ion Batteries](https://doi.org/10.1002/anie.6393193)**  
+  <sub>2026-11-26 · Angewandte Chemie International Edition · Anran Shi、Shenglu Geng、Liang Deng 等（期刊期次 2026-11-25）</sub>  
+  > Na + desolvation and diffusion across the solid‐electrolyte interface (SEI) are two bottlenecks to fast charging at low temperatures in hard‐carbon sodium‐ion batteries. Here, we design an anion‐capturing interface that provides a customize…
 
-- **[Hierarchical Order‐Disorder Architecture Enables Reversible Mg–N Coordination in Prussian Blue Analogues for Aqueous Mg Ion Storage](https://doi.org/10.1002/adfm.79779)**  
-  <sub>2026-11-24 · Advanced Functional Materials · Yangyang Sui、Weizhi Kou、Haobo Wang 等（期刊期次 2026-11-23）</sub>  
-  > Prussian blue analogues (PBAs) are promising cathodes for aqueous magnesium ion batteries (AMIBs), yet their Mg 2+ storage chemistry is commonly limited by weak interaction between divalent Mg 2+ and the rigid cyanide‐bridged framework. Her…
+- **[Spatial Confinement Enables In Situ Growth of the Nano-Sn@Sn3(PO4)2 Anode for Sodium-Ion Batteries](https://doi.org/10.1021/acsenergylett.6c03094)**  
+  <sub>2026-11-26 · ACS Energy Letters · Huiqian Xiong、Benchi Li、Jianing Wang 等（期刊期次 2026-11-25）</sub>  
+  > Nanoarchitecturing improves capacity utilization and mitigates mechanical stress of Sn anodes for elevated energy density sodium-ion batteries (SIBs), yet substantial surface energy induces nanoparticle aggregation. Traditional heterotopic…
+
+- **[Localized High-Concentration Electrolyte with Nonfluorinated Diluent for Wide-Temperature Sodium-Ion Batteries](https://doi.org/10.1021/acsenergylett.6c02373)**  
+  <sub>2026-11-25 · ACS Energy Letters · Xiaoqiong Du、Xuyun Guo、Brais González-Tobío 等（期刊期次 2026-11-25）</sub>  
+  > Localized high-concentration electrolytes (LHCEs) have been extensively investigated to improve rechargeable battery performance, yet most rely on costly fluorinated diluents. Herein, we develop a 1M LHCE using toluene as nonfluorinated and…
 
 ---
 

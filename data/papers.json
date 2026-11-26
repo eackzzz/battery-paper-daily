@@ -514,6 +514,96 @@
    "query": "Prussian blue analogue sodium cathode",
    "route": "普鲁士蓝",
    "first_seen": "2026-11-25"
+  },
+  "doi:10.1016/j.matt.2026.103106": {
+   "key": "doi:10.1016/j.matt.2026.103106",
+   "source": "Crossref",
+   "title": "Molecular-level pre-mixing enables robust high-entropy coating for sodium-ion battery cathodes",
+   "abstract": "",
+   "date": "2026-11-25",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.matt.2026.103106",
+   "venue": "Matter",
+   "authors": [
+    "Shuai Han",
+    "Xulin Mu",
+    "Chenhao Zhang"
+   ],
+   "query": "sodium-ion battery cathode polyanion",
+   "route": "其他",
+   "first_seen": "2026-11-26"
+  },
+  "doi:10.1021/acsenergylett.6c02373": {
+   "key": "doi:10.1021/acsenergylett.6c02373",
+   "source": "Crossref",
+   "title": "Localized High-Concentration Electrolyte with Nonfluorinated Diluent for Wide-Temperature Sodium-Ion Batteries",
+   "abstract": "Localized high-concentration electrolytes (LHCEs) have been extensively investigated to improve rechargeable battery performance, yet most rely on costly fluorinated diluents. Herein, we develop a 1M LHCE using toluene as nonfluorinated and low-cost diluent for wide-temperature sodium-ion batteries (SIBs). The 1M LHCE features a compressed solvation structure and preserved ion-transport pathways, enabling the antimonene alloy anode to deliver stable capacities of 555.2 mAh g–1 over 600 cycles at 25 °C and 573.2 and 512.3 mAh g–1 at 50 and –20 °C, respectively. Na3V2(PO4)3//antimonene full cells further demonstrate stable operation under 50 and –20 °C. Mechanistic investigations reveal that the 1M LHCE forms an adaptive solid electrolyte interphase (SEI) that dynamically regulates composition and thickness, which becomes thicker and more organic-rich after sodiation but thinner and more inorganic-rich after desodiation. Such “breathable” SEI effectively accommodates large volume changes and ensures efficient Na+ transport. This work provides a rational electrolyte design strategy for wide-temperature SIBs.",
+   "date": "2026-11-25",
+   "issue_date": "2026-11-25",
+   "url": "https://doi.org/10.1021/acsenergylett.6c02373",
+   "venue": "ACS Energy Letters",
+   "authors": [
+    "Xiaoqiong Du",
+    "Xuyun Guo",
+    "Brais González-Tobío"
+   ],
+   "query": "sodium-ion battery cathode polyanion",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-26"
+  },
+  "doi:10.1002/anie.6393193": {
+   "key": "doi:10.1002/anie.6393193",
+   "source": "Crossref",
+   "title": "Tailoring the Na + Transport Microenvironment With an Anion‐Capturing Interface Enables Low‐Temperature, Fast‐Charging Sodium‐Ion Batteries",
+   "abstract": "Na + desolvation and diffusion across the solid‐electrolyte interface (SEI) are two bottlenecks to fast charging at low temperatures in hard‐carbon sodium‐ion batteries. Here, we design an anion‐capturing interface that provides a customized interfacial environment to enhance interfacial dynamics at low temperatures. We demonstrate that phosphate can promote the formation of a homogeneous inorganic SEI by inducing anion enrichment near the inner Helmholtz plane. The phosphorus‐rich interface exhibits multiple benefits, including the formation of a built‐in electric field and a reduced energy barrier for Na + interphase diffusion. The hard carbon–phosphate interface (NP‐HC) anode maintains a capacity of 183.6 mAh g −1 at 0.5 A g −1 (−30°C). The pouch cell utilizing the NP‐HC anode achieves a 90.2% capacity retention after 1000 cycles at a 2 C rate. Even so, NP‐HC pouch cells can operate stably even at temperatures as low as −40°C, indicating their potential to enhance the performance of sodium‐ion batteries under harsh conditions.",
+   "date": "2026-11-26",
+   "issue_date": "2026-11-25",
+   "url": "https://doi.org/10.1002/anie.6393193",
+   "venue": "Angewandte Chemie International Edition",
+   "authors": [
+    "Anran Shi",
+    "Shenglu Geng",
+    "Liang Deng"
+   ],
+   "query": "sodium-ion battery cathode polyanion",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-26"
+  },
+  "doi:10.1021/acsenergylett.6c03094": {
+   "key": "doi:10.1021/acsenergylett.6c03094",
+   "source": "Crossref",
+   "title": "Spatial Confinement Enables In Situ Growth of the Nano-Sn@Sn3(PO4)2 Anode for Sodium-Ion Batteries",
+   "abstract": "Nanoarchitecturing improves capacity utilization and mitigates mechanical stress of Sn anodes for elevated energy density sodium-ion batteries (SIBs), yet substantial surface energy induces nanoparticle aggregation. Traditional heterotopic coatings cannot sustain long-term mechanical confinement upon repeated volume variation of Sn. Herein, we propose a dealloying-induced phase transformation and spatial confinement strategy to in situ construct a robust Sn3(PO4)2 coating on Sn nanoparticles. Sn3(PO4)2 provides spatial confinement for the homogeneously dispersed Sn nanoparticles, while the nano-Sn (∼20 nm) within the Sn3(PO4)2 framework effectively alleviates mechanical stress and suppresses volume expansion. Consequently, Sn@Sn3(PO4)2 exhibits attractive structural integrity and electrochemical performance, with a reversible capacity of 772 mAh g–1, 83% capacity retention after 3600 cycles, and 583 mAh g–1 at 5 A g–1. Moreover, the Sn@Sn3(PO4)2||Na3V2(PO4)3 full cell delivers a favorable cycling stability and rate performance. This in situ reconstruction strategy guides electrode surface engineering and facilitates the application of Sn-based anodes in future SIBs.",
+   "date": "2026-11-26",
+   "issue_date": "2026-11-25",
+   "url": "https://doi.org/10.1021/acsenergylett.6c03094",
+   "venue": "ACS Energy Letters",
+   "authors": [
+    "Huiqian Xiong",
+    "Benchi Li",
+    "Jianing Wang"
+   ],
+   "query": "Na3V2(PO4)3 sodium cathode",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-26"
+  },
+  "doi:10.1002/aenm.71880": {
+   "key": "doi:10.1002/aenm.71880",
+   "source": "Crossref",
+   "title": "In Situ Formation of Inorganic‐Rich Interphase via SiO 2 Additive for High‐Performance Sodium Metal Batteries",
+   "abstract": "Sodium metal batteries (SMBs) are promising candidates for next‐generation high‐energy‐density storage systems, yet their practical application is hindered by dendritic growth and unstable solid electrolyte interphase (SEI) formation. Herein, we report an in situ interfacial regulation strategy by introducing amorphous SiO 2 (a‑SiO 2 ) into Na metal anodes through an accumulative roll bonding process. We reveal that SiO 2 undergoes electrochemical reduction reaction with Na, generating SiO x (1&lt;x&lt;2) and Na 2 O—a beneficial inorganic SEI component that enhances interfacial ion transport and mechanical robustness. Furthermore, a‐SiO 2 exhibits superior interfacial reactivity and strong adsorption affinity toward fluoroethylene carbonate (FEC), promoting a NaF‐rich SEI that suppresses electrolyte decomposition. This synergetic inorganic‐rich SEI homogenizes Na deposition and accelerates ion diffusion kinetics. As a result, the Na/a‑SiO 2 symmetric cell achieves an ultralow overpotential of 24 mV at 0.5 mA cm −2 and stable cycling for over 1350 h. When paired with the Na 3 V 2 (PO 4 ) 2 O 2 F cathode, the full cell delivers excellent rate capability (73.9 mAh g −1 at 60 C) and cycling stability with 80% capacity retention after 8000 cycles at 20 C. This work establishes SiO 2 as a scalable and effective inorganic additive for tailoring SEI chemistry, offering a practical pathway toward high‐energy and durable SMBs.",
+   "date": "2026-11-25",
+   "issue_date": "2026-11-25",
+   "url": "https://doi.org/10.1002/aenm.71880",
+   "venue": "Advanced Energy Materials",
+   "authors": [
+    "Yi Yang",
+    "Xiao Xiao",
+    "Lin Gan"
+   ],
+   "query": "sodium-rich layered cathode",
+   "route": "其他",
+   "first_seen": "2026-11-26"
   }
  }
 }
