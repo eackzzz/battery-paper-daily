@@ -604,6 +604,60 @@
    "query": "sodium-rich layered cathode",
    "route": "其他",
    "first_seen": "2026-11-26"
+  },
+  "doi:10.1016/j.jechem.2026.11.029": {
+   "key": "doi:10.1016/j.jechem.2026.11.029",
+   "source": "Crossref",
+   "title": "Symmetry-reduced superstructure enables high-voltage stable layered oxide cathodes for sodium-ion batteries",
+   "abstract": "",
+   "date": "2026-11-26",
+   "issue_date": "",
+   "url": "https://doi.org/10.1016/j.jechem.2026.11.029",
+   "venue": "Journal of Energy Chemistry",
+   "authors": [
+    "Zhiqiang Zhao",
+    "Mingbao Huang",
+    "Wenbo Liu"
+   ],
+   "query": "sodium-ion battery cathode polyanion",
+   "route": "层状氧化物",
+   "first_seen": "2026-11-27"
+  },
+  "doi:10.1021/acsenergylett.6c03180": {
+   "key": "doi:10.1021/acsenergylett.6c03180",
+   "source": "Crossref",
+   "title": "Programming Sodium-Storage Kinetics through Linear Quinone Oligomerization",
+   "abstract": "Quinone-based organic cathodes enable reversible multielectron redox reactions but suffer from dissolution and sluggish sodium-storage kinetics. Here, two structurally homologous linear quinone oligomers, biphenyl–quinone dimer (2BQ) and terphenyl–quinone trimer (3BQ), are compared to elucidate how backbone extension regulates sodium storage. Compared with 2BQ, 3BQ exhibits reduced crystallinity, enhanced electrochemical utilization, a narrower HOMO–LUMO gap, and lower oxidation reorganization energy. Consequently, 3BQ delivers a reversible capacity of 350 mA h g–1 at 0.05C and retains 80% of its capacity after 500 cycles at 1C, with enhanced rate capability and cycling stability. Operando FTIR and state-dependent XPS reveal reversible C=O/C–O–Na conversion, while density functional theory calculations elucidate an extended multielectron sodiation sequence. These findings establish controlled linear quinone oligomerization as an effective, rational molecular design strategy to reduce apparent dissolution tendency and improve carbonyl-site utilization and sodium-storage kinetics, providing insights into the development of advanced organic cathodes for rechargeable sodium-ion batteries.",
+   "date": "2026-11-26",
+   "issue_date": "2026-11-26",
+   "url": "https://doi.org/10.1021/acsenergylett.6c03180",
+   "venue": "ACS Energy Letters",
+   "authors": [
+    "Wenwen Deng",
+    "Tingting Jiang",
+    "Longfei Li"
+   ],
+   "query": "NaFePO4 cathode sodium",
+   "route": "其他",
+   "first_seen": "2026-11-27"
+  },
+  "doi:10.1002/adma.75884": {
+   "key": "doi:10.1002/adma.75884",
+   "source": "Crossref",
+   "title": "Covalent–Ionic Bonding Regulation Enables Chemo‐Mechanical Stabilization of High‐Voltage O3‐Type Sodium Layered Oxide Cathodes",
+   "abstract": "Ni–Fe–Mn‐based O3‐type layered oxides are attractive cathode materials for sodium‐ion batteries, but their high‐voltage operation suffers from the coupling between phase transitions and lattice oxygen instability. In this work, guided by hard and soft acids and bases (HSAB) theory, we propose a covalent–ionic dual‐pathway decoupling strategy to stabilize high‐voltage O3‐type layered cathodes. The incorporation of Mg, Ti, and F constructs a rigid architecture in which a covalent Ti─O framework reinforces the transition‐metal octahedral skeleton to suppress detrimental phase transitions, while localized Mg─F ionic coordination stabilizes lattice oxygen through localized electrostatic anchoring to mitigate irreversible oxygen release. Through multiscale structural and spectroscopic analyses, we verify that this bonding regulation suppresses the O3→P3→OP2 multiphase evolution and lattice oxygen escape. The modified cathode maintains 76.32% capacity retention over 400 cycles at 1 C and exhibits robust cyclability across −10°C to 50°C; the assembled full cells achieve a reversible capacity of 166.27 mAh g −1 with an energy density of 330.22 Wh kg −1 at 0.1 C, and an initial capacity of 143.74 mAh g −1 with 72.06% retention after 500 cycles at 1 C. This work demonstrates a bonding‐regulation paradigm that decouples chemo‐mechanical degradation in high‐energy‐density layered oxide cathodes.",
+   "date": "2026-11-26",
+   "issue_date": "2026-11-26",
+   "url": "https://doi.org/10.1002/adma.75884",
+   "venue": "Advanced Materials",
+   "authors": [
+    "Xingyue Yang",
+    "Jian Chen",
+    "Rui Li"
+   ],
+   "query": "sodium-ion battery cathode layered oxide",
+   "route": "层状氧化物",
+   "first_seen": "2026-11-27"
   }
  }
 }

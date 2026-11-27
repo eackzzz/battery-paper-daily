@@ -6,23 +6,22 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-26 04:49 UTC　·　**今日新增**：3 篇　·　**累计收录**：35 篇
+**最近更新**：2026-11-27 04:54 UTC　·　**今日新增**：3 篇　·　**累计收录**：38 篇
 
 ---
 
 ## 今日新增
 
-- **[Tailoring the Na + Transport Microenvironment With an Anion‐Capturing Interface Enables Low‐Temperature, Fast‐Charging Sodium‐Ion Batteries](https://doi.org/10.1002/anie.6393193)**  
-  <sub>2026-11-26 · Angewandte Chemie International Edition · Anran Shi、Shenglu Geng、Liang Deng 等（期刊期次 2026-11-25）</sub>  
-  > Na + desolvation and diffusion across the solid‐electrolyte interface (SEI) are two bottlenecks to fast charging at low temperatures in hard‐carbon sodium‐ion batteries. Here, we design an anion‐capturing interface that provides a customize…
+- **[Symmetry-reduced superstructure enables high-voltage stable layered oxide cathodes for sodium-ion batteries](https://doi.org/10.1016/j.jechem.2026.11.029)**  
+  <sub>2026-11-26 · Journal of Energy Chemistry · Zhiqiang Zhao、Mingbao Huang、Wenbo Liu 等</sub>  
 
-- **[Spatial Confinement Enables In Situ Growth of the Nano-Sn@Sn3(PO4)2 Anode for Sodium-Ion Batteries](https://doi.org/10.1021/acsenergylett.6c03094)**  
-  <sub>2026-11-26 · ACS Energy Letters · Huiqian Xiong、Benchi Li、Jianing Wang 等（期刊期次 2026-11-25）</sub>  
-  > Nanoarchitecturing improves capacity utilization and mitigates mechanical stress of Sn anodes for elevated energy density sodium-ion batteries (SIBs), yet substantial surface energy induces nanoparticle aggregation. Traditional heterotopic…
+- **[Covalent–Ionic Bonding Regulation Enables Chemo‐Mechanical Stabilization of High‐Voltage O3‐Type Sodium Layered Oxide Cathodes](https://doi.org/10.1002/adma.75884)**  
+  <sub>2026-11-26 · Advanced Materials · Xingyue Yang、Jian Chen、Rui Li 等（期刊期次 2026-11-26）</sub>  
+  > Ni–Fe–Mn‐based O3‐type layered oxides are attractive cathode materials for sodium‐ion batteries, but their high‐voltage operation suffers from the coupling between phase transitions and lattice oxygen instability. In this work, guided by ha…
 
-- **[Localized High-Concentration Electrolyte with Nonfluorinated Diluent for Wide-Temperature Sodium-Ion Batteries](https://doi.org/10.1021/acsenergylett.6c02373)**  
-  <sub>2026-11-25 · ACS Energy Letters · Xiaoqiong Du、Xuyun Guo、Brais González-Tobío 等（期刊期次 2026-11-25）</sub>  
-  > Localized high-concentration electrolytes (LHCEs) have been extensively investigated to improve rechargeable battery performance, yet most rely on costly fluorinated diluents. Herein, we develop a 1M LHCE using toluene as nonfluorinated and…
+- **[Programming Sodium-Storage Kinetics through Linear Quinone Oligomerization](https://doi.org/10.1021/acsenergylett.6c03180)**  
+  <sub>2026-11-26 · ACS Energy Letters · Wenwen Deng、Tingting Jiang、Longfei Li 等（期刊期次 2026-11-26）</sub>  
+  > Quinone-based organic cathodes enable reversible multielectron redox reactions but suffer from dissolution and sluggish sodium-storage kinetics. Here, two structurally homologous linear quinone oligomers, biphenyl–quinone dimer (2BQ) and te…
 
 ---
 
