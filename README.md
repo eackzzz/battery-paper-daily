@@ -6,22 +6,19 @@
 
 期刊文献只保留电池方向主流顶刊（24 个刊，白名单见 `config.json`，可自行增删）；arXiv 是预印本，不做期刊过滤。
 
-**最近更新**：2026-11-27 04:54 UTC　·　**今日新增**：3 篇　·　**累计收录**：38 篇
+**最近更新**：2026-11-28 04:38 UTC　·　**今日新增**：2 篇　·　**累计收录**：40 篇
 
 ---
 
 ## 今日新增
 
-- **[Symmetry-reduced superstructure enables high-voltage stable layered oxide cathodes for sodium-ion batteries](https://doi.org/10.1016/j.jechem.2026.11.029)**  
-  <sub>2026-11-26 · Journal of Energy Chemistry · Zhiqiang Zhao、Mingbao Huang、Wenbo Liu 等</sub>  
+- **[An Amorphous Phosphate-Based Chloride Electrolyte for Low-Stacking-Pressure All-Solid-State Sodium Batteries](https://doi.org/10.1021/acsenergylett.6c03064)**  
+  <sub>2026-11-27 · ACS Energy Letters · Zi-Wei Wang、Jin-Da Luo、Zhang-Chi Yang 等（期刊期次 2026-11-27）</sub>  
+  > Conventional inorganic solid electrolytes (SEs) rarely combine sufficient deformability for stable interfacial contact in composite cathodes with high ionic conductivity and low cost, hindering the development of stable all-solid-state sodi…
 
-- **[Covalent–Ionic Bonding Regulation Enables Chemo‐Mechanical Stabilization of High‐Voltage O3‐Type Sodium Layered Oxide Cathodes](https://doi.org/10.1002/adma.75884)**  
-  <sub>2026-11-26 · Advanced Materials · Xingyue Yang、Jian Chen、Rui Li 等（期刊期次 2026-11-26）</sub>  
-  > Ni–Fe–Mn‐based O3‐type layered oxides are attractive cathode materials for sodium‐ion batteries, but their high‐voltage operation suffers from the coupling between phase transitions and lattice oxygen instability. In this work, guided by ha…
-
-- **[Programming Sodium-Storage Kinetics through Linear Quinone Oligomerization](https://doi.org/10.1021/acsenergylett.6c03180)**  
-  <sub>2026-11-26 · ACS Energy Letters · Wenwen Deng、Tingting Jiang、Longfei Li 等（期刊期次 2026-11-26）</sub>  
-  > Quinone-based organic cathodes enable reversible multielectron redox reactions but suffer from dissolution and sluggish sodium-storage kinetics. Here, two structurally homologous linear quinone oligomers, biphenyl–quinone dimer (2BQ) and te…
+- **[Harnessing Bio‑Digestion for Surface Porous Hard Carbon With Rich Internal Closed Pores Toward Exceptional Sodium Storage](https://doi.org/10.1002/adfm.79919)**  
+  <sub>2026-11-27 · Advanced Functional Materials · Tengtao Hu、Yujuan Zhang、Chenlu Xu 等（期刊期次 2026-11-27）</sub>  
+  > Sodium‐ion batteries (SIBs) are attractive for grid‐scale energy storage, yet their anode development is hindered by irreversible Na + trapping and insufficient rate capability, primarily due to microstructural defects and poor surface chem…
 
 ---
 

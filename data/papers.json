@@ -658,6 +658,42 @@
    "query": "sodium-ion battery cathode layered oxide",
    "route": "层状氧化物",
    "first_seen": "2026-11-27"
+  },
+  "doi:10.1021/acsenergylett.6c03064": {
+   "key": "doi:10.1021/acsenergylett.6c03064",
+   "source": "Crossref",
+   "title": "An Amorphous Phosphate-Based Chloride Electrolyte for Low-Stacking-Pressure All-Solid-State Sodium Batteries",
+   "abstract": "Conventional inorganic solid electrolytes (SEs) rarely combine sufficient deformability for stable interfacial contact in composite cathodes with high ionic conductivity and low cost, hindering the development of stable all-solid-state sodium batteries (ASSSBs). Herein, we propose a facile chlorination-tailored strategy to overcome this limitation and obtain a low-cost, deformable, amorphous phosphate-based chloride solid electrolyte, Na3Zr2Si1.6PO4Cl14.4. Utilizing SiCl4 as an efficient chlorinating reagent, we transform the rigid oxide units [PO4] into flexible [POxCl4–x] units, accompanied by the generation of [SiClzO4–z]. Owing to the enhanced rotational probability of the chlorinated structural motifs, Na3Zr2Si1.6PO4Cl14.4 delivers a high Na+ conductivity of 2.02 mS cm–1 at 30 °C and a low modulus of 1.8 GPa. The constructed deformable and fast Na+-conductive network within the Na2Fe2(SO4)3-based composite cathode enables an ASSSB with a 4.5 V cutoff to stably operate for over 2000 cycles under a 5 MPa stack pressure.",
+   "date": "2026-11-27",
+   "issue_date": "2026-11-27",
+   "url": "https://doi.org/10.1021/acsenergylett.6c03064",
+   "venue": "ACS Energy Letters",
+   "authors": [
+    "Zi-Wei Wang",
+    "Jin-Da Luo",
+    "Zhang-Chi Yang"
+   ],
+   "query": "sodium iron phosphate cathode",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-28"
+  },
+  "doi:10.1002/adfm.79919": {
+   "key": "doi:10.1002/adfm.79919",
+   "source": "Crossref",
+   "title": "Harnessing Bio‑Digestion for Surface Porous Hard Carbon With Rich Internal Closed Pores Toward Exceptional Sodium Storage",
+   "abstract": "Sodium‐ion batteries (SIBs) are attractive for grid‐scale energy storage, yet their anode development is hindered by irreversible Na + trapping and insufficient rate capability, primarily due to microstructural defects and poor surface chemistry. Herein, we report a biogenic digestion strategy to turn cockroach frass into a surface‐porous hard carbon with a rich network of internal closed pores for exceptional sodium storage. By feeding cockroaches with wheat bran mixed with zinc gluconate, the intrinsic digestive metabolism not only selectively concentrates lignin, hemicellulose, and cellulose, but also introduces more N and S heteroatoms into the feces simultaneously. Zinc salts in feces convert to ZnO during carbonization, inhibiting graphitic‐layer contraction and, upon volatilization, creating abundant closed pores and an expanded interlayer spacing (0.43 nm). The resulting hard carbon (CHC/10 Zn) exhibits highly reversible capacity of 148.9 mA h g −1 at 32 C and 56.9% capacity retention after 7000 cycles at 12 C. When paired with the Na 4 Fe 3 (PO 4 ) 2 P 2 O 7 (NFPP) cathode, the full cell achieves a high‐rate performance (68.3 mA h g −1 at 40 C). This work demonstrates that harnessing the intrinsic digestive metabolism of insects provides a sustainable route to advanced hard carbon for sodium storage.",
+   "date": "2026-11-27",
+   "issue_date": "2026-11-27",
+   "url": "https://doi.org/10.1002/adfm.79919",
+   "venue": "Advanced Functional Materials",
+   "authors": [
+    "Tengtao Hu",
+    "Yujuan Zhang",
+    "Chenlu Xu"
+   ],
+   "query": "sodium-rich layered cathode",
+   "route": "聚阴离子",
+   "first_seen": "2026-11-28"
   }
  }
 }
